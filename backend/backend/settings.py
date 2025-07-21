@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_db_logger',
     'authentication',
+    'profiles',
 ]
 
 MIDDLEWARE = [

@@ -36,8 +36,6 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     
     email = models.EmailField(unique=True, null=True, blank=True)
     phone = models.CharField(validators=[phone_regex], max_length=17, unique=True, null=True, blank=True)
-    first_name = models.CharField(max_length=30, blank=True)
-    last_name = models.CharField(max_length=30, blank=True)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     date_joined = models.DateTimeField(auto_now_add=True)
@@ -58,10 +56,16 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
         return self.email or self.phone or f"User {self.id}"
 
     def get_full_name(self):
-        return f"{self.first_name} {self.last_name}".strip()
+        """Get full name from related profile"""
+        if hasattr(self, 'profile') and self.profile.full_name:
+            return self.profile.full_name
+        return self.email or self.phone or f"User {self.id}"
 
     def get_short_name(self):
-        return self.first_name
+        """Get first name from related profile"""
+        if hasattr(self, 'profile') and self.profile.full_name:
+            return self.profile.full_name.split()[0] if self.profile.full_name else ""
+        return self.email or self.phone or f"User {self.id}"
 
     @property
     def username(self):
