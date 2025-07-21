@@ -1,0 +1,365 @@
+INFO 2025-07-20 00:25:26,466 autoreload 10132 18872 Watching for file changes with StatReloader
+INFO 2025-07-20 00:25:47,106 autoreload 30800 35636 Watching for file changes with StatReloader
+INFO 2025-07-20 00:26:12,773 autoreload 30800 35636 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\admin.py changed, reloading.
+INFO 2025-07-20 00:26:13,315 autoreload 16096 34464 Watching for file changes with StatReloader
+INFO 2025-07-20 00:45:15,164 autoreload 16096 34464 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\views.py changed, reloading.
+INFO 2025-07-20 00:45:15,702 autoreload 35372 5556 Watching for file changes with StatReloader
+INFO 2025-07-20 00:45:41,771 autoreload 35372 5556 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\views.py changed, reloading.
+INFO 2025-07-20 00:45:42,588 autoreload 19484 31528 Watching for file changes with StatReloader
+INFO 2025-07-20 00:50:38,484 autoreload 5040 18464 Watching for file changes with StatReloader
+INFO 2025-07-20 00:51:30,037 autoreload 5040 18464 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\apps.py changed, reloading.
+INFO 2025-07-20 00:51:30,549 autoreload 23468 33340 Watching for file changes with StatReloader
+INFO 2025-07-20 00:52:53,583 autoreload 23468 33340 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\admin.py changed, reloading.
+INFO 2025-07-20 00:52:54,162 autoreload 20276 35328 Watching for file changes with StatReloader
+INFO 2025-07-20 00:53:10,737 basehttp 20276 28636 "GET /admin/authentication/customuser/ HTTP/1.1" 200 18837
+INFO 2025-07-20 00:53:10,784 basehttp 20276 28636 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-20 00:53:13,213 basehttp 20276 28636 "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 22621
+INFO 2025-07-20 00:53:13,247 basehttp 20276 28636 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-20 00:53:26,774 autoreload 25832 23228 Watching for file changes with StatReloader
+WARNING 2025-07-20 00:53:38,685 views 25832 24652 Failed registration attempt from IP: 127.0.0.1, errors: {'phone': [ErrorDetail(string='custom user with this phone already exists.', code='unique')]}
+WARNING 2025-07-20 00:53:38,691 log 25832 24652 Bad Request: /api/auth/register/
+WARNING 2025-07-20 00:53:38,695 basehttp 25832 24652 "POST /api/auth/register/ HTTP/1.1" 400 57
+WARNING 2025-07-20 00:53:38,700 views 25832 22460 Failed login attempt for: test@example.com from IP: 127.0.0.1, errors: {'non_field_errors': [ErrorDetail(string='Invalid credentials.', code='invalid')]}
+WARNING 2025-07-20 00:53:38,703 log 25832 22460 Bad Request: /api/auth/login/
+WARNING 2025-07-20 00:53:38,707 basehttp 25832 22460 "POST /api/auth/login/ HTTP/1.1" 400 45
+INFO 2025-07-20 00:54:06,072 basehttp 25832 35836 "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 28215
+INFO 2025-07-20 00:54:06,104 basehttp 25832 35836 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-20 00:54:32,004 views 25832 28972 New user registered: user1823@example.com from IP: 127.0.0.1
+INFO 2025-07-20 00:54:32,008 basehttp 25832 28972 "POST /api/auth/register/ HTTP/1.1" 201 737
+WARNING 2025-07-20 00:54:32,014 views 25832 30772 Failed login attempt for: nonexistent@example.com from IP: 127.0.0.1, errors: {'non_field_errors': [ErrorDetail(string='Invalid credentials.', code='invalid')]}
+WARNING 2025-07-20 00:54:32,017 log 25832 30772 Bad Request: /api/auth/login/
+WARNING 2025-07-20 00:54:32,020 basehttp 25832 30772 "POST /api/auth/login/ HTTP/1.1" 400 45
+INFO 2025-07-20 00:54:32,026 basehttp 25832 22328 "POST /api/auth/reset-password/ HTTP/1.1" 200 119
+INFO 2025-07-20 00:54:32,132 basehttp 25832 35360 "POST /api/auth/reset-password/ HTTP/1.1" 200 119
+INFO 2025-07-20 00:54:32,242 basehttp 25832 23136 "POST /api/auth/reset-password/ HTTP/1.1" 200 120
+WARNING 2025-07-20 00:54:32,345 views 25832 35732 Password reset rate limit exceeded from IP: 127.0.0.1
+WARNING 2025-07-20 00:54:32,350 log 25832 35732 Too Many Requests: /api/auth/reset-password/
+WARNING 2025-07-20 00:54:32,354 basehttp 25832 35732 "POST /api/auth/reset-password/ HTTP/1.1" 429 148
+INFO 2025-07-20 00:54:39,474 basehttp 25832 35836 "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 35706
+INFO 2025-07-20 00:54:39,508 basehttp 25832 35836 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-20 01:07:02,659 basehttp 25832 11536 "GET /admin/?id=d2e150dd-8a26-401b-8806-8daed5cad6c0&vscodeBrowserReqId=1752966422651 HTTP/1.1" 302 0
+INFO 2025-07-20 01:07:02,676 basehttp 25832 11536 "GET /admin/login/?next=/admin/%3Fid%3Dd2e150dd-8a26-401b-8806-8daed5cad6c0%26vscodeBrowserReqId%3D1752966422651 HTTP/1.1" 200 4328
+INFO 2025-07-21 19:47:12,104 autoreload 11460 16984 Watching for file changes with StatReloader
+INFO 2025-07-21 19:47:17,801 basehttp 11460 24504 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-07-21 19:47:17,861 basehttp 11460 24504 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+INFO 2025-07-21 19:47:17,910 basehttp 11460 24504 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-21 19:47:17,910 basehttp 11460 18272 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-21 19:47:17,912 basehttp 11460 16924 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:47:17,963 basehttp 11460 16924 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-21 19:47:17,965 basehttp 11460 18272 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-21 19:47:17,975 basehttp 11460 16924 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-07-21 19:47:17,984 basehttp 11460 18272 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+WARNING 2025-07-21 19:47:19,077 log 11460 18272 Not Found: /favicon.ico
+WARNING 2025-07-21 19:47:19,085 basehttp 11460 18272 "GET /favicon.ico HTTP/1.1" 404 2361
+INFO 2025-07-21 19:47:23,391 basehttp 11460 18272 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4345
+INFO 2025-07-21 19:47:30,329 basehttp 11460 18272 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4345
+INFO 2025-07-21 19:48:10,683 basehttp 11460 18272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-07-21 19:48:10,711 basehttp 11460 18272 "GET /admin/ HTTP/1.1" 200 9558
+INFO 2025-07-21 19:48:10,752 basehttp 11460 18272 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:10,770 basehttp 11460 16924 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:10,771 basehttp 11460 18272 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:10,771 basehttp 11460 24504 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,800 basehttp 11460 24504 "GET /admin/authentication/customuser/ HTTP/1.1" 200 20117
+INFO 2025-07-21 19:48:12,848 basehttp 11460 24504 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,853 basehttp 11460 16924 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,853 basehttp 11460 15812 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,854 basehttp 11460 20904 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,857 basehttp 11460 32180 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,864 basehttp 11460 18272 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 19:48:12,865 basehttp 11460 24504 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,871 basehttp 11460 16924 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,878 basehttp 11460 15812 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,883 basehttp 11460 20904 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,892 basehttp 11460 32180 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,897 basehttp 11460 18272 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,917 basehttp 11460 15812 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,924 basehttp 11460 20904 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,931 basehttp 11460 32180 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:12,940 basehttp 11460 18272 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:23,975 basehttp 11460 18272 "POST /admin/authentication/customuser/ HTTP/1.1" 200 11366
+INFO 2025-07-21 19:48:24,001 basehttp 11460 18272 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-07-21 19:48:25,083 basehttp 11460 18272 "POST /admin/authentication/customuser/ HTTP/1.1" 302 0
+INFO 2025-07-21 19:48:25,106 basehttp 11460 18272 "GET /admin/authentication/customuser/ HTTP/1.1" 200 15731
+INFO 2025-07-21 19:48:25,135 basehttp 11460 18272 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 19:49:45,035 autoreload 11460 16984 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\models.py changed, reloading.
+INFO 2025-07-21 19:49:45,816 autoreload 18968 30376 Watching for file changes with StatReloader
+INFO 2025-07-21 19:50:22,721 autoreload 18968 30376 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\models.py changed, reloading.
+INFO 2025-07-21 19:50:23,523 autoreload 32752 20344 Watching for file changes with StatReloader
+INFO 2025-07-21 19:50:29,357 basehttp 32752 31732 "GET /admin/authentication/customuser/ HTTP/1.1" 200 15540
+INFO 2025-07-21 19:50:29,412 basehttp 32752 31732 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-07-21 19:50:50,693 log 32752 31732 Internal Server Error: /admin/authentication/customuser/15/change/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 840, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 654, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 312, in __new__
+    fields = fields_for_model(
+        opts.model,
+    ...<11 lines>...
+        form_declared_fields=new_class.declared_fields,
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 207, in fields_for_model
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for CustomUser model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1987, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1840, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1878, in _changeform_view
+    ModelForm = self.get_form(
+        request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\auth\admin.py", line 98, in get_form
+    return super().get_form(request, obj, **defaults)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 842, in get_form
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for CustomUser model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+ERROR 2025-07-21 19:50:50,710 basehttp 32752 31732 "GET /admin/authentication/customuser/15/change/ HTTP/1.1" 500 171055
+INFO 2025-07-21 19:50:52,431 basehttp 32752 31732 "GET /admin/authentication/customuser/ HTTP/1.1" 200 15540
+ERROR 2025-07-21 19:50:53,415 log 32752 31732 Internal Server Error: /admin/authentication/customuser/1/change/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 840, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 654, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 312, in __new__
+    fields = fields_for_model(
+        opts.model,
+    ...<11 lines>...
+        form_declared_fields=new_class.declared_fields,
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 207, in fields_for_model
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for CustomUser model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1987, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1840, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1878, in _changeform_view
+    ModelForm = self.get_form(
+        request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\auth\admin.py", line 98, in get_form
+    return super().get_form(request, obj, **defaults)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 842, in get_form
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for CustomUser model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+ERROR 2025-07-21 19:50:53,445 basehttp 32752 31732 "GET /admin/authentication/customuser/1/change/ HTTP/1.1" 500 171017
+INFO 2025-07-21 19:50:58,082 basehttp 32752 31732 "GET /admin/authentication/customuser/ HTTP/1.1" 200 15540
+INFO 2025-07-21 19:51:23,096 autoreload 12248 4468 Watching for file changes with StatReloader
+INFO 2025-07-21 19:51:47,452 basehttp 12248 22816 "POST /admin/logout/ HTTP/1.1" 200 3568
+INFO 2025-07-21 19:51:48,699 basehttp 12248 22816 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-07-21 19:51:48,725 basehttp 12248 22816 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+INFO 2025-07-21 19:51:57,583 basehttp 12248 22816 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-07-21 19:51:57,605 basehttp 12248 22816 "GET /admin/ HTTP/1.1" 200 9551
+INFO 2025-07-21 19:51:59,558 basehttp 12248 22816 "GET /admin/authentication/customuser/ HTTP/1.1" 200 16167
+INFO 2025-07-21 19:51:59,600 basehttp 12248 22816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-07-21 19:52:00,821 log 12248 22816 Internal Server Error: /admin/authentication/customuser/16/change/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 840, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 654, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 312, in __new__
+    fields = fields_for_model(
+        opts.model,
+    ...<11 lines>...
+        form_declared_fields=new_class.declared_fields,
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 207, in fields_for_model
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for CustomUser model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1987, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1840, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1878, in _changeform_view
+    ModelForm = self.get_form(
+        request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\auth\admin.py", line 98, in get_form
+    return super().get_form(request, obj, **defaults)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 842, in get_form
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for CustomUser model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+ERROR 2025-07-21 19:52:00,843 basehttp 12248 22816 "GET /admin/authentication/customuser/16/change/ HTTP/1.1" 500 171055
+INFO 2025-07-21 19:52:02,547 basehttp 12248 22816 "GET /admin/authentication/customuser/ HTTP/1.1" 200 16167
+INFO 2025-07-21 19:52:07,800 basehttp 12248 22816 "POST /admin/authentication/customuser/ HTTP/1.1" 200 11329
+INFO 2025-07-21 19:52:09,432 basehttp 12248 22816 "POST /admin/authentication/customuser/ HTTP/1.1" 302 0
+INFO 2025-07-21 19:52:09,454 basehttp 12248 22816 "GET /admin/authentication/customuser/ HTTP/1.1" 200 15047
+INFO 2025-07-21 19:52:09,491 basehttp 12248 22816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-07-21 19:52:10,441 log 12248 22816 Internal Server Error: /admin/authentication/customuser/16/change/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 840, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 654, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 312, in __new__
+    fields = fields_for_model(
+        opts.model,
+    ...<11 lines>...
+        form_declared_fields=new_class.declared_fields,
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\forms\models.py", line 207, in fields_for_model
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for CustomUser model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1987, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1840, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1878, in _changeform_view
+    ModelForm = self.get_form(
+        request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\auth\admin.py", line 98, in get_form
+    return super().get_form(request, obj, **defaults)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 842, in get_form
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for CustomUser model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+ERROR 2025-07-21 19:52:10,458 basehttp 12248 22816 "GET /admin/authentication/customuser/16/change/ HTTP/1.1" 500 171055
+INFO 2025-07-21 19:52:50,790 autoreload 12248 4468 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\admin.py changed, reloading.
+INFO 2025-07-21 19:52:51,647 autoreload 27384 32344 Watching for file changes with StatReloader
+INFO 2025-07-21 19:53:36,634 autoreload 27384 32344 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\admin.py changed, reloading.
+INFO 2025-07-21 19:53:37,465 autoreload 31588 6776 Watching for file changes with StatReloader
+INFO 2025-07-21 19:53:39,031 basehttp 31588 3012 "GET /admin/authentication/customuser/16/change/ HTTP/1.1" 200 24955
+INFO 2025-07-21 19:53:39,077 basehttp 31588 6992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 19:53:39,162 basehttp 31588 3012 "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2025-07-21 19:53:39,170 basehttp 31588 3012 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+INFO 2025-07-21 19:53:39,177 basehttp 31588 4372 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-07-21 19:53:39,180 basehttp 31588 8144 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+INFO 2025-07-21 19:53:39,182 basehttp 31588 23096 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-07-21 19:53:39,200 basehttp 31588 23096 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-07-21 19:53:39,260 basehttp 31588 23096 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
