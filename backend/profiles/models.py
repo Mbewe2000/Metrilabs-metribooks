@@ -4,17 +4,57 @@ from django.conf import settings
 
 class UserProfile(models.Model):
     BUSINESS_TYPE_CHOICES = [
+        ('food_beverage', 'Food & Beverage'),
         ('retail', 'Retail'),
+        ('beauty', 'Beauty'),
+        ('health_wellness', 'Health & Wellness'),
         ('services', 'Services'),
-        ('agriculture', 'Agriculture'),
-        ('manufacturing', 'Manufacturing'),
-        ('technology', 'Technology'),
-        ('hospitality', 'Hospitality'),
-        ('healthcare', 'Healthcare'),
-        ('education', 'Education'),
-        ('finance', 'Finance'),
-        ('construction', 'Construction'),
-        ('transport', 'Transport & Logistics'),
+    ]
+    
+    # Subcategory choices for each business type
+    FOOD_BEVERAGE_SUBCATEGORIES = [
+        ('fast_food', 'Fast Food'),
+        ('catering', 'Catering'),
+        ('restaurant_dine_in', 'Restaurant/Dine-In'),
+        ('takeaway', 'Takeaway'),
+        ('bakery', 'Bakery'),
+        ('bar_drinks', 'Bar/Drinks'),
+        ('other', 'Other'),
+    ]
+    
+    RETAIL_SUBCATEGORIES = [
+        ('grocery', 'Grocery'),
+        ('electronics', 'Electronics'),
+        ('clothing_accessories', 'Clothing & Accessories'),
+        ('hardware_tools', 'Hardware & Tools'),
+        ('furniture', 'Furniture'),
+        ('other', 'Other'),
+    ]
+    
+    BEAUTY_SUBCATEGORIES = [
+        ('hair_salon', 'Hair Salon'),
+        ('barber_shop', 'Barber Shop'),
+        ('spa_massage', 'Spa & Massage'),
+        ('cosmetics_retail', 'Cosmetics Retail'),
+        ('mobile_beauty_services', 'Mobile Beauty Services'),
+        ('other', 'Other'),
+    ]
+    
+    HEALTH_WELLNESS_SUBCATEGORIES = [
+        ('pharmacy', 'Pharmacy'),
+        ('fitness_instructor', 'Fitness Instructor'),
+        ('gym', 'Gym'),
+        ('herbal_medicine', 'Herbal Medicine'),
+        ('physiotherapy', 'Physiotherapy'),
+        ('other', 'Other'),
+    ]
+    
+    SERVICES_SUBCATEGORIES = [
+        ('cleaning', 'Cleaning'),
+        ('transport_delivery', 'Transport & Delivery'),
+        ('repairs', 'Repairs (phone, auto, etc.)'),
+        ('consultancy', 'Consultancy'),
+        ('tailoring', 'Tailoring'),
         ('other', 'Other'),
     ]
     
@@ -58,6 +98,12 @@ class UserProfile(models.Model):
         max_length=20,
         choices=BUSINESS_TYPE_CHOICES,
         help_text="Type of business you operate"
+    )
+    business_subcategory = models.CharField(
+        max_length=30,
+        blank=True,
+        null=True,
+        help_text="Specific subcategory of your business type"
     )
     business_city = models.CharField(max_length=100, help_text="City or Town where business is located")
     business_province = models.CharField(max_length=100, help_text="Province where business is located")
@@ -111,6 +157,28 @@ class UserProfile(models.Model):
         self.is_complete = all(field for field in required_fields)
         super().save(*args, **kwargs)
     
+    def get_subcategory_choices(self):
+        """Get subcategory choices based on business type"""
+        if self.business_type == 'food_beverage':
+            return self.FOOD_BEVERAGE_SUBCATEGORIES
+        elif self.business_type == 'retail':
+            return self.RETAIL_SUBCATEGORIES
+        elif self.business_type == 'beauty':
+            return self.BEAUTY_SUBCATEGORIES
+        elif self.business_type == 'health_wellness':
+            return self.HEALTH_WELLNESS_SUBCATEGORIES
+        elif self.business_type == 'services':
+            return self.SERVICES_SUBCATEGORIES
+        return []
+    
+    def get_subcategory_display(self):
+        """Get display name for the selected subcategory"""
+        choices = self.get_subcategory_choices()
+        for value, display in choices:
+            if value == self.business_subcategory:
+                return display
+        return self.business_subcategory
+    
     @property
     def email(self):
         """Get email from related user"""
@@ -128,7 +196,7 @@ class UserProfile(models.Model):
     
     def get_completion_percentage(self):
         """Calculate profile completion percentage"""
-        total_fields = 8  # Total number of profile fields
+        total_fields = 9  # Updated total number of profile fields
         completed_fields = 0
         
         # Required fields
@@ -139,6 +207,8 @@ class UserProfile(models.Model):
         if self.business_name:
             completed_fields += 1
         if self.business_type:
+            completed_fields += 1
+        if self.business_subcategory:
             completed_fields += 1
         if self.business_city:
             completed_fields += 1

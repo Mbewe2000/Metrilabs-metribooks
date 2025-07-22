@@ -8,6 +8,8 @@ class UserProfileSerializer(serializers.ModelSerializer):
     phone = serializers.CharField(source='user.phone', read_only=True)
     business_location = serializers.CharField(read_only=True)
     completion_percentage = serializers.SerializerMethodField()
+    subcategory_choices = serializers.SerializerMethodField()
+    subcategory_display = serializers.SerializerMethodField()
 
     class Meta:
         model = UserProfile
@@ -21,6 +23,9 @@ class UserProfileSerializer(serializers.ModelSerializer):
             'email',
             'phone',
             'business_type',
+            'business_subcategory',
+            'subcategory_choices',
+            'subcategory_display',
             'business_city',
             'business_province',
             'business_location',
@@ -35,6 +40,12 @@ class UserProfileSerializer(serializers.ModelSerializer):
 
     def get_completion_percentage(self, obj):
         return obj.get_completion_percentage()
+    
+    def get_subcategory_choices(self, obj):
+        return obj.get_subcategory_choices()
+    
+    def get_subcategory_display(self, obj):
+        return obj.get_subcategory_display()
 
     def validate(self, data):
         """
@@ -66,6 +77,7 @@ class UserProfileCreateUpdateSerializer(serializers.ModelSerializer):
     Serializer for creating and updating user profiles
     """
     completion_percentage = serializers.SerializerMethodField(read_only=True)
+    subcategory_choices = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model = UserProfile
@@ -75,6 +87,8 @@ class UserProfileCreateUpdateSerializer(serializers.ModelSerializer):
             'full_name',
             'business_name',
             'business_type',
+            'business_subcategory',
+            'subcategory_choices',
             'business_city',
             'business_province',
             'employee_count',
@@ -85,6 +99,9 @@ class UserProfileCreateUpdateSerializer(serializers.ModelSerializer):
 
     def get_completion_percentage(self, obj):
         return obj.get_completion_percentage()
+    
+    def get_subcategory_choices(self, obj):
+        return obj.get_subcategory_choices()
 
     def validate_first_name(self, value):
         if not value.strip():
@@ -110,6 +127,16 @@ class UserProfileCreateUpdateSerializer(serializers.ModelSerializer):
         if not value.strip():
             raise serializers.ValidationError("Business province cannot be empty.")
         return value.strip()
+    
+    def validate_business_subcategory(self, value):
+        """Validate that subcategory matches the business type"""
+        if value and hasattr(self, 'instance') and self.instance:
+            valid_choices = [choice[0] for choice in self.instance.get_subcategory_choices()]
+            if value not in valid_choices:
+                raise serializers.ValidationError(
+                    f"Invalid subcategory for the selected business type."
+                )
+        return value
 
 
 class UserProfileSummarySerializer(serializers.ModelSerializer):
@@ -131,6 +158,7 @@ class UserProfileSummarySerializer(serializers.ModelSerializer):
             'email',
             'phone',
             'business_type',
+            'business_subcategory',
             'business_location',
             'is_complete',
         ]

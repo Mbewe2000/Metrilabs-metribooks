@@ -1,21 +1,57 @@
 from django.contrib import admin
+from django import forms
 from .models import UserProfile
+
+
+class UserProfileAdminForm(forms.ModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        
+        # Always set up the subcategory field as a choice field
+        if self.instance and self.instance.pk and self.instance.business_type:
+            # Editing existing object with business type
+            subcategory_choices = self.instance.get_subcategory_choices()
+            self.fields['business_subcategory'] = forms.ChoiceField(
+                choices=[('', '--- Select Subcategory ---')] + subcategory_choices,
+                required=False,
+                help_text="Specific subcategory of your business type"
+            )
+        else:
+            # For new objects, show all possible subcategories grouped
+            all_choices = [('', '--- Select Business Type First ---')]
+            
+            # Add all subcategories from all business types for now
+            temp_profile = UserProfile()
+            for business_type, _ in UserProfile.BUSINESS_TYPE_CHOICES:
+                temp_profile.business_type = business_type
+                subcategories = temp_profile.get_subcategory_choices()
+                for value, display in subcategories:
+                    all_choices.append((value, display))
+            
+            self.fields['business_subcategory'] = forms.ChoiceField(
+                choices=all_choices,
+                required=False,
+                help_text="Select a business type first to see relevant subcategories"
+            )
+    
+    class Meta:
+        model = UserProfile
+        fields = '__all__'
 
 
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):
+    form = UserProfileAdminForm
     list_display = (
         'full_name',
         'business_name',
         'email',
         'phone',
-        'business_type',
-        'business_location',
-        'is_complete',
         'created_at'
     )
     list_filter = (
         'business_type',
+        'business_subcategory',
         'business_province',
         'is_complete',
         'employee_count',
@@ -55,6 +91,7 @@ class UserProfileAdmin(admin.ModelAdmin):
         ('Business Details', {
             'fields': (
                 'business_type',
+                'business_subcategory',
                 'business_city',
                 'business_province',
                 'business_location'
@@ -86,3 +123,6 @@ class UserProfileAdmin(admin.ModelAdmin):
     def has_delete_permission(self, request, obj=None):
         # Don't allow deletion of profiles from admin
         return False
+    
+    class Media:
+        js = ('profiles/js/business_subcategory.js',)

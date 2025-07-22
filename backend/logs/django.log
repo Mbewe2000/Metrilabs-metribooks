@@ -559,3 +559,1048 @@ INFO 2025-07-21 21:32:17,455 basehttp 30920 25312 "GET /admin/products/stockmove
 INFO 2025-07-21 21:32:17,483 basehttp 30920 25312 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 INFO 2025-07-21 21:32:21,385 basehttp 30920 25312 "GET /admin/products/product/ HTTP/1.1" 200 18938
 INFO 2025-07-21 21:32:21,415 basehttp 30920 25312 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:51:18,705 autoreload 6408 27464 Watching for file changes with StatReloader
+INFO 2025-07-21 21:51:31,364 basehttp 6408 22816 "GET /admin/ HTTP/1.1" 200 16325
+WARNING 2025-07-21 21:51:35,371 log 6408 22816 Not Found: /favicon.ico
+WARNING 2025-07-21 21:51:35,376 basehttp 6408 22816 "GET /favicon.ico HTTP/1.1" 404 2655
+INFO 2025-07-21 21:51:37,473 basehttp 6408 22816 "GET /admin/products/productcategory/ HTTP/1.1" 200 20027
+INFO 2025-07-21 21:51:37,508 basehttp 6408 22816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:51:40,203 basehttp 6408 22816 "GET /admin/products/productinventory/ HTTP/1.1" 200 24768
+INFO 2025-07-21 21:51:40,233 basehttp 6408 22816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:51:42,140 basehttp 6408 22816 "GET /admin/products/product/ HTTP/1.1" 200 25057
+INFO 2025-07-21 21:51:42,172 basehttp 6408 22816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:51:42,965 basehttp 6408 2344 "GET /admin/products/stockmovement/ HTTP/1.1" 200 23269
+INFO 2025-07-21 21:51:42,998 basehttp 6408 2344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:51:49,777 basehttp 6408 2344 "GET /admin/products/stockmovement/7/change/ HTTP/1.1" 200 20664
+INFO 2025-07-21 21:51:49,807 basehttp 6408 2344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:51:54,670 basehttp 6408 2344 "GET /admin/products/product/ HTTP/1.1" 200 25057
+INFO 2025-07-21 21:51:54,705 basehttp 6408 2344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:51:57,167 basehttp 6408 2344 "GET /admin/products/product/6/change/ HTTP/1.1" 200 43163
+INFO 2025-07-21 21:51:57,194 basehttp 6408 2344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:52:04,555 basehttp 6408 2344 "GET /admin/products/productinventory/ HTTP/1.1" 200 24768
+INFO 2025-07-21 21:52:04,585 basehttp 6408 2344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:52:07,501 basehttp 6408 2344 "GET /admin/products/productcategory/ HTTP/1.1" 200 20027
+INFO 2025-07-21 21:52:07,530 basehttp 6408 2344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:52:28,729 autoreload 28624 28628 Watching for file changes with StatReloader
+INFO 2025-07-21 21:59:01,980 basehttp 6408 9536 "GET /admin/products/productinventory/ HTTP/1.1" 200 24768
+INFO 2025-07-21 21:59:02,013 basehttp 6408 9536 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 21:59:09,687 basehttp 6408 9536 "GET /admin/products/product/ HTTP/1.1" 200 25057
+INFO 2025-07-21 21:59:09,723 basehttp 6408 9536 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-07-21 22:02:30,244 log 6408 24244 Not Found: /
+WARNING 2025-07-21 22:02:30,248 basehttp 6408 24244 "GET / HTTP/1.1" 404 2604
+WARNING 2025-07-21 22:02:31,378 log 6408 24244 Not Found: /
+WARNING 2025-07-21 22:02:31,385 basehttp 6408 24244 "GET / HTTP/1.1" 404 2604
+WARNING 2025-07-21 22:02:31,432 log 6408 24244 Not Found: /favicon.ico
+WARNING 2025-07-21 22:02:31,439 basehttp 6408 24244 "GET /favicon.ico HTTP/1.1" 404 2655
+WARNING 2025-07-21 22:02:38,467 log 6408 24244 Not Found: /api/
+WARNING 2025-07-21 22:02:38,472 basehttp 6408 24244 "GET /api/ HTTP/1.1" 404 6031
+INFO 2025-07-21 22:04:21,545 basehttp 6408 17532 "GET /admin/products/product/ HTTP/1.1" 200 25057
+INFO 2025-07-21 22:04:21,575 basehttp 6408 17532 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:04:24,833 basehttp 6408 17532 "GET /admin/products/productinventory/ HTTP/1.1" 200 24768
+INFO 2025-07-21 22:04:24,868 basehttp 6408 17532 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:04:26,489 basehttp 6408 17532 "GET /admin/products/productcategory/ HTTP/1.1" 200 20027
+INFO 2025-07-21 22:04:26,519 basehttp 6408 17532 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:04:28,491 basehttp 6408 17532 "GET /admin/products/productcategory/ HTTP/1.1" 200 20027
+INFO 2025-07-21 22:04:28,515 basehttp 6408 17532 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-07-21 22:06:20,050 log 7636 18416 Unauthorized: /api/products/
+ERROR 2025-07-21 22:06:20,493 log 7636 18416 Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: products_productinventory.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\rest_framework\generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py", line 134, in perform_create
+    ProductInventory.objects.create(product=product)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: products_productinventory.product_id
+INFO 2025-07-21 22:07:10,294 autoreload 28624 28628 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:07:10,627 autoreload 6408 27464 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:07:10,846 autoreload 20340 24328 Watching for file changes with StatReloader
+INFO 2025-07-21 22:07:11,221 autoreload 7644 27512 Watching for file changes with StatReloader
+INFO 2025-07-21 22:08:30,073 autoreload 7644 27512 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:08:30,695 autoreload 17848 12176 Watching for file changes with StatReloader
+INFO 2025-07-21 22:08:30,765 autoreload 20340 24328 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:08:31,381 autoreload 8796 17532 Watching for file changes with StatReloader
+WARNING 2025-07-21 22:08:32,712 log 28648 24560 Unauthorized: /api/products/
+WARNING 2025-07-21 22:08:53,476 log 19904 13704 Unauthorized: /api/products/
+INFO 2025-07-21 22:09:10,371 basehttp 17848 27144 "GET /admin/auth/group/ HTTP/1.1" 200 13474
+INFO 2025-07-21 22:09:10,434 basehttp 17848 27144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:09:11,442 basehttp 17848 27144 "GET /admin/authentication/customuser/ HTTP/1.1" 200 18329
+INFO 2025-07-21 22:09:11,484 basehttp 17848 27144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:09:13,415 basehttp 17848 27144 "GET /admin/authentication/customuser/17/change/ HTTP/1.1" 200 29439
+INFO 2025-07-21 22:09:13,449 basehttp 17848 27144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:09:15,980 basehttp 17848 27144 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 20052
+INFO 2025-07-21 22:09:18,399 basehttp 17848 27144 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 28522
+INFO 2025-07-21 22:09:18,430 basehttp 17848 27144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:09:21,245 basehttp 17848 27144 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 20052
+INFO 2025-07-21 22:12:40,546 autoreload 8796 17532 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:12:41,069 autoreload 2924 20020 Watching for file changes with StatReloader
+INFO 2025-07-21 22:12:41,225 autoreload 17848 12176 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:12:41,799 autoreload 4900 2428 Watching for file changes with StatReloader
+INFO 2025-07-21 22:13:16,977 autoreload 4900 2428 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:13:17,261 autoreload 2924 20020 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:13:17,620 autoreload 15320 11252 Watching for file changes with StatReloader
+INFO 2025-07-21 22:13:17,910 autoreload 25832 17364 Watching for file changes with StatReloader
+INFO 2025-07-21 22:13:35,319 autoreload 25832 17364 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:13:35,838 autoreload 10260 6248 Watching for file changes with StatReloader
+INFO 2025-07-21 22:13:36,091 autoreload 15320 11252 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:13:36,628 autoreload 28120 17448 Watching for file changes with StatReloader
+INFO 2025-07-21 22:13:53,995 autoreload 28120 17448 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:13:54,226 autoreload 10260 6248 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:13:54,508 autoreload 15640 26336 Watching for file changes with StatReloader
+INFO 2025-07-21 22:13:54,747 autoreload 27444 26444 Watching for file changes with StatReloader
+INFO 2025-07-21 22:14:05,568 autoreload 15640 26336 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:14:05,798 autoreload 27444 26444 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:14:06,121 autoreload 2032 20956 Watching for file changes with StatReloader
+INFO 2025-07-21 22:14:06,378 autoreload 27424 23876 Watching for file changes with StatReloader
+INFO 2025-07-21 22:14:22,481 autoreload 2032 20956 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:14:22,763 autoreload 27424 23876 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:14:22,996 autoreload 22356 27464 Watching for file changes with StatReloader
+INFO 2025-07-21 22:14:23,292 autoreload 16404 6160 Watching for file changes with StatReloader
+INFO 2025-07-21 22:14:42,503 autoreload 22356 27464 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:14:42,891 autoreload 16404 6160 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:14:43,131 autoreload 14908 18652 Watching for file changes with StatReloader
+INFO 2025-07-21 22:14:43,592 autoreload 11560 8452 Watching for file changes with StatReloader
+INFO 2025-07-21 22:15:11,194 autoreload 14908 18652 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:15:11,584 autoreload 11560 8452 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:15:11,845 autoreload 6204 18144 Watching for file changes with StatReloader
+INFO 2025-07-21 22:15:12,246 autoreload 24868 25248 Watching for file changes with StatReloader
+INFO 2025-07-21 22:15:25,679 autoreload 24868 25248 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:15:26,228 autoreload 25868 24360 Watching for file changes with StatReloader
+INFO 2025-07-21 22:15:26,276 autoreload 6204 18144 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:15:26,875 autoreload 18564 16160 Watching for file changes with StatReloader
+INFO 2025-07-21 22:15:43,663 autoreload 25868 24360 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:15:44,234 autoreload 23036 27840 Watching for file changes with StatReloader
+INFO 2025-07-21 22:15:44,282 autoreload 18564 16160 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:15:44,861 autoreload 3060 24108 Watching for file changes with StatReloader
+INFO 2025-07-21 22:16:04,479 autoreload 3060 24108 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:16:04,873 autoreload 23036 27840 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:16:05,222 autoreload 23584 2528 Watching for file changes with StatReloader
+INFO 2025-07-21 22:16:05,554 autoreload 2232 16160 Watching for file changes with StatReloader
+INFO 2025-07-21 22:17:08,059 autoreload 2232 16160 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\serializers.py changed, reloading.
+INFO 2025-07-21 22:17:08,744 autoreload 14316 10720 Watching for file changes with StatReloader
+INFO 2025-07-21 22:17:08,838 autoreload 23584 2528 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\serializers.py changed, reloading.
+INFO 2025-07-21 22:17:09,569 autoreload 26660 2228 Watching for file changes with StatReloader
+INFO 2025-07-21 22:17:25,971 basehttp 14316 1344 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 20052
+INFO 2025-07-21 22:17:28,326 basehttp 14316 1344 "GET /admin/products/productcategory/ HTTP/1.1" 200 20027
+INFO 2025-07-21 22:17:28,363 basehttp 14316 1344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:17:32,911 basehttp 14316 1344 "POST /admin/products/productcategory/ HTTP/1.1" 200 13458
+INFO 2025-07-21 22:17:33,288 autoreload 26660 2228 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\serializers.py changed, reloading.
+INFO 2025-07-21 22:17:33,766 autoreload 14316 10720 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\serializers.py changed, reloading.
+INFO 2025-07-21 22:17:33,931 autoreload 6400 12552 Watching for file changes with StatReloader
+INFO 2025-07-21 22:17:34,410 autoreload 7796 22716 Watching for file changes with StatReloader
+INFO 2025-07-21 22:17:46,396 basehttp 6400 28144 "GET /admin/products/productinventory/ HTTP/1.1" 200 24768
+INFO 2025-07-21 22:17:46,423 basehttp 6400 28144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:17:51,824 basehttp 6400 28144 "POST /admin/products/productinventory/ HTTP/1.1" 200 14837
+INFO 2025-07-21 22:17:53,952 basehttp 6400 28144 "POST /admin/products/productinventory/ HTTP/1.1" 302 0
+INFO 2025-07-21 22:17:53,973 basehttp 6400 28144 "GET /admin/products/productinventory/ HTTP/1.1" 200 17010
+INFO 2025-07-21 22:17:54,003 basehttp 6400 28144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:17:55,039 autoreload 7796 22716 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:17:55,529 basehttp 6400 28144 "GET /admin/products/product/ HTTP/1.1" 200 25058
+INFO 2025-07-21 22:17:55,561 basehttp 6400 28144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:17:55,702 autoreload 17220 17492 Watching for file changes with StatReloader
+INFO 2025-07-21 22:17:55,744 autoreload 6400 12552 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:17:56,405 autoreload 10768 16188 Watching for file changes with StatReloader
+INFO 2025-07-21 22:17:59,531 basehttp 17220 4344 "POST /admin/products/product/ HTTP/1.1" 302 0
+INFO 2025-07-21 22:17:59,599 basehttp 17220 4344 "GET /admin/products/product/ HTTP/1.1" 200 25251
+INFO 2025-07-21 22:17:59,625 basehttp 17220 4344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:18:06,190 basehttp 17220 4344 "POST /admin/products/product/ HTTP/1.1" 200 15481
+INFO 2025-07-21 22:18:08,438 basehttp 17220 4344 "POST /admin/products/product/ HTTP/1.1" 302 0
+INFO 2025-07-21 22:18:08,456 basehttp 17220 4344 "GET /admin/products/product/ HTTP/1.1" 200 16968
+INFO 2025-07-21 22:18:08,483 basehttp 17220 4344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:18:10,322 basehttp 17220 4344 "GET /admin/products/stockmovement/ HTTP/1.1" 200 16256
+INFO 2025-07-21 22:18:10,355 basehttp 17220 4344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:18:11,783 basehttp 17220 4344 "GET /admin/products/product/ HTTP/1.1" 200 16830
+INFO 2025-07-21 22:18:11,813 basehttp 17220 4344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:18:12,586 basehttp 17220 4344 "GET /admin/products/productinventory/ HTTP/1.1" 200 16861
+INFO 2025-07-21 22:18:12,618 basehttp 17220 4344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:18:14,778 basehttp 17220 4344 "GET /admin/products/productcategory/ HTTP/1.1" 200 20978
+INFO 2025-07-21 22:18:14,811 basehttp 17220 4344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:18:16,706 autoreload 17220 17492 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:18:16,997 autoreload 10768 16188 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:18:17,358 autoreload 23736 28152 Watching for file changes with StatReloader
+INFO 2025-07-21 22:18:17,602 autoreload 13928 7196 Watching for file changes with StatReloader
+INFO 2025-07-21 22:18:25,129 basehttp 23736 19844 "POST /admin/products/productcategory/ HTTP/1.1" 200 13293
+INFO 2025-07-21 22:18:26,808 basehttp 23736 19844 "POST /admin/products/productcategory/ HTTP/1.1" 302 0
+INFO 2025-07-21 22:18:26,862 basehttp 23736 19844 "GET /admin/products/productcategory/ HTTP/1.1" 200 20600
+INFO 2025-07-21 22:18:26,888 basehttp 23736 19844 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:18:35,123 autoreload 23736 28152 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:18:35,136 autoreload 13928 7196 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:18:35,800 autoreload 19624 24356 Watching for file changes with StatReloader
+INFO 2025-07-21 22:18:35,808 autoreload 1464 3800 Watching for file changes with StatReloader
+INFO 2025-07-21 22:18:47,071 autoreload 19624 24356 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:18:47,092 autoreload 1464 3800 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:18:47,701 autoreload 19844 7196 Watching for file changes with StatReloader
+INFO 2025-07-21 22:18:47,704 autoreload 15368 27652 Watching for file changes with StatReloader
+INFO 2025-07-21 22:19:10,534 autoreload 19844 7196 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:19:10,572 autoreload 15368 27652 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:19:11,162 autoreload 4360 11120 Watching for file changes with StatReloader
+INFO 2025-07-21 22:19:11,177 autoreload 6740 27468 Watching for file changes with StatReloader
+INFO 2025-07-21 22:19:29,783 autoreload 4360 11120 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:19:29,788 autoreload 6740 27468 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:19:30,398 autoreload 24744 28248 Watching for file changes with StatReloader
+INFO 2025-07-21 22:19:30,399 autoreload 28252 27892 Watching for file changes with StatReloader
+INFO 2025-07-21 22:19:50,997 autoreload 24744 28248 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:19:51,029 autoreload 28252 27892 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:19:51,613 autoreload 27752 24176 Watching for file changes with StatReloader
+INFO 2025-07-21 22:19:51,625 autoreload 23896 11836 Watching for file changes with StatReloader
+INFO 2025-07-21 22:20:37,373 autoreload 27752 24176 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\admin.py changed, reloading.
+INFO 2025-07-21 22:20:37,381 autoreload 23896 11836 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\serializers.py changed, reloading.
+INFO 2025-07-21 22:20:38,030 autoreload 20408 8644 Watching for file changes with StatReloader
+INFO 2025-07-21 22:20:38,030 autoreload 11476 26552 Watching for file changes with StatReloader
+INFO 2025-07-21 22:20:48,740 basehttp 20408 10252 "GET /admin/products/productcategory/ HTTP/1.1" 200 20454
+INFO 2025-07-21 22:20:48,783 basehttp 20408 10252 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:20:51,304 basehttp 20408 10252 "GET /admin/products/productinventory/ HTTP/1.1" 200 17222
+INFO 2025-07-21 22:20:51,342 basehttp 20408 10252 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:20:52,258 basehttp 20408 10252 "GET /admin/products/product/ HTTP/1.1" 200 17173
+INFO 2025-07-21 22:20:52,288 basehttp 20408 10252 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:20:54,913 basehttp 20408 10252 "GET /admin/authentication/customuser/ HTTP/1.1" 200 18329
+INFO 2025-07-21 22:20:54,946 basehttp 20408 10252 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:20:57,289 basehttp 20408 10252 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 20052
+INFO 2025-07-21 22:20:58,858 basehttp 20408 10252 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 28522
+INFO 2025-07-21 22:20:58,891 basehttp 20408 10252 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:21:04,203 basehttp 20408 10252 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 20052
+INFO 2025-07-21 22:21:06,578 basehttp 20408 10252 "GET /admin/authentication/customuser/ HTTP/1.1" 200 18329
+INFO 2025-07-21 22:21:08,055 basehttp 20408 10252 "GET /admin/products/productcategory/ HTTP/1.1" 200 20454
+INFO 2025-07-21 22:21:08,090 basehttp 20408 10252 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:21:09,883 basehttp 20408 10252 "GET /admin/products/productcategory/add/ HTTP/1.1" 200 18456
+INFO 2025-07-21 22:21:09,916 basehttp 20408 10252 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:21:15,764 basehttp 20408 10252 "GET /admin/products/productcategory/ HTTP/1.1" 200 20454
+WARNING 2025-07-21 22:22:04,331 log 17116 3004 Not Found: /api/products/inventory/2/
+WARNING 2025-07-21 22:22:04,332 log 17116 3004 Not Found: /api/products/inventory/1/
+WARNING 2025-07-21 22:22:05,235 log 17116 3004 Not Found: /api/products/reports/inventory-summary/
+WARNING 2025-07-21 22:22:06,146 log 17116 3004 Not Found: /api/products/categories/
+WARNING 2025-07-21 22:22:07,031 log 17116 3004 Not Found: /api/products/products/
+WARNING 2025-07-21 22:22:07,941 log 17116 3004 Not Found: /api/products/stock-movements/
+WARNING 2025-07-21 22:22:08,816 log 17116 3004 Not Found: /api/products/categories/2/
+WARNING 2025-07-21 22:22:09,707 log 17116 3004 Not Found: /api/products/products/2/
+WARNING 2025-07-21 22:22:10,577 log 17116 3004 Not Found: /api/products/products/
+WARNING 2025-07-21 22:22:11,424 log 17116 3004 Not Found: /api/products/stock-movements/
+WARNING 2025-07-21 22:23:39,868 log 15320 10572 Not Found: /api/inventory/2/
+WARNING 2025-07-21 22:23:44,175 log 15320 10572 Not Found: /api/categories/2/
+WARNING 2025-07-21 22:23:45,032 log 15320 10572 Not Found: /api/products/2/
+WARNING 2025-07-21 22:23:45,880 log 15320 10572 Bad Request: /api/products/
+WARNING 2025-07-21 22:23:46,776 log 15320 10572 Bad Request: /api/stock-movements/
+INFO 2025-07-21 22:43:06,837 autoreload 6564 5656 Watching for file changes with StatReloader
+WARNING 2025-07-21 22:43:11,239 log 6564 20708 Not Found: /admin/products/productcategory/
+WARNING 2025-07-21 22:43:11,243 basehttp 6564 20708 "GET /admin/products/productcategory/ HTTP/1.1" 404 6614
+INFO 2025-07-21 22:43:13,711 basehttp 6564 20708 "GET /admin/authentication/customuser/ HTTP/1.1" 200 16216
+INFO 2025-07-21 22:43:17,234 basehttp 6564 20708 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 17939
+INFO 2025-07-21 22:43:19,031 basehttp 6564 20708 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 26409
+INFO 2025-07-21 22:43:19,069 basehttp 6564 20708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-21 22:52:22,682 autoreload 6564 5656 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\backend\settings.py changed, reloading.
+INFO 2025-07-21 22:52:23,259 autoreload 28220 9596 Watching for file changes with StatReloader
+INFO 2025-07-21 22:52:30,231 autoreload 28220 9596 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\backend\urls.py changed, reloading.
+INFO 2025-07-21 22:52:30,782 autoreload 21556 4244 Watching for file changes with StatReloader
+INFO 2025-07-21 22:52:40,863 autoreload 21556 4244 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\products\views.py changed, reloading.
+INFO 2025-07-21 22:52:41,452 autoreload 27596 22716 Watching for file changes with StatReloader
+INFO 2025-07-21 22:53:05,740 basehttp 27596 27132 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 28638
+INFO 2025-07-21 22:53:05,775 basehttp 27596 27132 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-07-21 22:53:07,305 log 27596 27132 Internal Server Error: /admin/products/productcategory/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: products_productcategory.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: products_productcategory.user_id
+ERROR 2025-07-21 22:53:07,320 basehttp 27596 27132 "GET /admin/products/productcategory/ HTTP/1.1" 500 191607
+INFO 2025-07-21 22:53:10,506 basehttp 27596 27132 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 28638
+INFO 2025-07-22 20:48:15,525 autoreload 33868 24532 Watching for file changes with StatReloader
+INFO 2025-07-22 20:48:19,526 basehttp 33868 35720 "GET /admin/ HTTP/1.1" 200 13839
+INFO 2025-07-22 20:48:19,541 basehttp 33868 35720 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,541 basehttp 33868 30120 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,542 basehttp 33868 23428 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,577 basehttp 33868 23428 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,579 basehttp 33868 30120 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,584 basehttp 33868 23428 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,590 basehttp 33868 30120 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,598 basehttp 33868 35720 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,599 basehttp 33868 23428 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,601 basehttp 33868 30120 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:19,616 basehttp 33868 30120 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+WARNING 2025-07-22 20:48:20,671 log 33868 30120 Not Found: /favicon.ico
+WARNING 2025-07-22 20:48:20,678 basehttp 33868 30120 "GET /favicon.ico HTTP/1.1" 404 2508
+INFO 2025-07-22 20:48:23,175 basehttp 33868 30120 "GET /admin/authentication/customuser/ HTTP/1.1" 200 16216
+INFO 2025-07-22 20:48:23,205 basehttp 33868 30120 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,206 basehttp 33868 35720 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,209 basehttp 33868 28292 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,210 basehttp 33868 29460 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,210 basehttp 33868 4328 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,215 basehttp 33868 23428 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 20:48:23,230 basehttp 33868 30120 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,235 basehttp 33868 35720 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,241 basehttp 33868 28292 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,246 basehttp 33868 29460 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,253 basehttp 33868 4328 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,257 basehttp 33868 23428 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,277 basehttp 33868 28292 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,278 basehttp 33868 29460 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,284 basehttp 33868 4328 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:23,290 basehttp 33868 23428 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:26,270 basehttp 33868 23428 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 17939
+INFO 2025-07-22 20:48:33,050 basehttp 33868 23428 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 26409
+INFO 2025-07-22 20:48:33,076 basehttp 33868 23428 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:33,078 basehttp 33868 29460 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:33,084 basehttp 33868 4328 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 20:48:33,091 basehttp 33868 29460 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-07-22 20:48:33,095 basehttp 33868 4328 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-07-22 20:53:49,596 autoreload 33868 24532 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\models.py changed, reloading.
+INFO 2025-07-22 20:53:50,314 autoreload 10880 17712 Watching for file changes with StatReloader
+INFO 2025-07-22 20:53:59,668 autoreload 10880 17712 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\models.py changed, reloading.
+INFO 2025-07-22 20:54:00,422 autoreload 19788 5692 Watching for file changes with StatReloader
+INFO 2025-07-22 20:54:10,891 autoreload 19788 5692 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\models.py changed, reloading.
+INFO 2025-07-22 20:54:11,697 autoreload 252 6572 Watching for file changes with StatReloader
+INFO 2025-07-22 20:54:22,144 autoreload 252 6572 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\models.py changed, reloading.
+INFO 2025-07-22 20:54:22,819 autoreload 22256 35512 Watching for file changes with StatReloader
+INFO 2025-07-22 20:54:33,136 autoreload 22256 35512 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\models.py changed, reloading.
+INFO 2025-07-22 20:54:33,872 autoreload 17188 3896 Watching for file changes with StatReloader
+INFO 2025-07-22 20:54:49,604 autoreload 17188 3896 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 20:54:50,266 autoreload 24728 21536 Watching for file changes with StatReloader
+INFO 2025-07-22 20:55:09,110 autoreload 24728 21536 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\serializers.py changed, reloading.
+INFO 2025-07-22 20:55:09,859 autoreload 22744 26020 Watching for file changes with StatReloader
+INFO 2025-07-22 20:55:24,589 autoreload 22744 26020 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\serializers.py changed, reloading.
+INFO 2025-07-22 20:55:25,176 autoreload 19240 28100 Watching for file changes with StatReloader
+INFO 2025-07-22 20:56:11,822 autoreload 19240 28100 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\serializers.py changed, reloading.
+INFO 2025-07-22 20:56:12,729 autoreload 27968 18880 Watching for file changes with StatReloader
+INFO 2025-07-22 20:56:28,130 autoreload 27968 18880 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\serializers.py changed, reloading.
+INFO 2025-07-22 20:56:28,833 autoreload 27804 28004 Watching for file changes with StatReloader
+ERROR 2025-07-22 20:59:37,264 log 27804 19468 Internal Server Error: /admin/profiles/userprofile/1/change/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: profiles_userprofile.business_subcategory
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1987, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1840, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 1863, in _changeform_view
+    obj = self.get_object(request, unquote(object_id), to_field)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 897, in get_object
+    return queryset.get(**{field.name: object_id})
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 629, in get
+    num = len(clone)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: profiles_userprofile.business_subcategory
+ERROR 2025-07-22 20:59:37,282 basehttp 27804 19468 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 500 206282
+ERROR 2025-07-22 20:59:38,730 log 27804 19468 Internal Server Error: /admin/profiles/userprofile/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: profiles_userprofile.business_subcategory
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: profiles_userprofile.business_subcategory
+ERROR 2025-07-22 20:59:38,740 basehttp 27804 19468 "GET /admin/profiles/userprofile/ HTTP/1.1" 500 188353
+ERROR 2025-07-22 20:59:39,470 log 27804 19468 Internal Server Error: /admin/authentication/customuser/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 516, in __get__
+    rel_obj = self.related.get_cached_value(instance)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\fields\mixins.py", line 37, in get_cached_value
+    return instance._state.fields_cache[self.cache_name]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: profiles_userprofile.business_subcategory
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\defaulttags.py", line 153, in render
+    value = var.resolve(context, ignore_failures=True)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 925, in _resolve_lookup
+    current = current()
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\models.py", line 66, in get_short_name
+    if hasattr(self, 'profile') and self.profile.full_name:
+       ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 523, in __get__
+    rel_obj = self.get_queryset(instance=instance).get(**filter_args)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 629, in get
+    num = len(clone)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: profiles_userprofile.business_subcategory
+ERROR 2025-07-22 20:59:39,489 basehttp 27804 19468 "GET /admin/authentication/customuser/ HTTP/1.1" 500 551533
+ERROR 2025-07-22 20:59:40,129 log 27804 19468 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 516, in __get__
+    rel_obj = self.related.get_cached_value(instance)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\fields\mixins.py", line 37, in get_cached_value
+    return instance._state.fields_cache[self.cache_name]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: profiles_userprofile.business_subcategory
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\defaulttags.py", line 153, in render
+    value = var.resolve(context, ignore_failures=True)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\template\base.py", line 925, in _resolve_lookup
+    current = current()
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\authentication\models.py", line 66, in get_short_name
+    if hasattr(self, 'profile') and self.profile.full_name:
+       ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 523, in __get__
+    rel_obj = self.get_queryset(instance=instance).get(**filter_args)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 629, in get
+    num = len(clone)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: profiles_userprofile.business_subcategory
+ERROR 2025-07-22 20:59:40,151 basehttp 27804 19468 "GET /admin/ HTTP/1.1" 500 556006
+INFO 2025-07-22 21:03:00,965 autoreload 27804 28004 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\views.py changed, reloading.
+INFO 2025-07-22 21:03:01,568 autoreload 32412 30432 Watching for file changes with StatReloader
+INFO 2025-07-22 21:03:16,054 autoreload 32412 30432 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\urls.py changed, reloading.
+INFO 2025-07-22 21:03:16,732 autoreload 1304 33688 Watching for file changes with StatReloader
+INFO 2025-07-22 21:14:52,396 autoreload 1304 33688 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:14:53,115 autoreload 6676 27912 Watching for file changes with StatReloader
+INFO 2025-07-22 21:19:11,132 basehttp 6676 34936 "GET /admin/ HTTP/1.1" 200 13839
+INFO 2025-07-22 21:19:13,761 basehttp 6676 34936 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 17874
+INFO 2025-07-22 21:19:15,298 basehttp 6676 34936 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 26060
+INFO 2025-07-22 21:19:15,332 basehttp 6676 34936 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:36:25,718 basehttp 6676 17092 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 26060
+INFO 2025-07-22 21:36:25,760 basehttp 6676 17092 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:37:27,438 autoreload 6676 27912 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:37:28,048 autoreload 34984 24832 Watching for file changes with StatReloader
+INFO 2025-07-22 21:37:48,755 basehttp 34984 25588 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 26998
+INFO 2025-07-22 21:37:48,807 basehttp 34984 25588 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:38:54,183 autoreload 34984 24832 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:38:54,707 autoreload 30444 24680 Watching for file changes with StatReloader
+INFO 2025-07-22 21:39:02,679 autoreload 30444 24680 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:39:03,270 autoreload 26692 19828 Watching for file changes with StatReloader
+INFO 2025-07-22 21:39:12,458 autoreload 26692 19828 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:39:13,031 autoreload 23368 19788 Watching for file changes with StatReloader
+INFO 2025-07-22 21:40:01,843 autoreload 23368 19788 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:40:02,412 autoreload 2940 19956 Watching for file changes with StatReloader
+INFO 2025-07-22 21:55:04,483 basehttp 2940 11060 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 27096
+WARNING 2025-07-22 21:55:04,517 basehttp 2940 11060 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:55:04,522 basehttp 2940 10884 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:55:12,652 basehttp 2940 10884 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 27096
+WARNING 2025-07-22 21:55:12,683 basehttp 2940 5616 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:55:12,686 basehttp 2940 10884 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:56:07,256 autoreload 2940 19956 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:56:07,819 autoreload 9208 31236 Watching for file changes with StatReloader
+INFO 2025-07-22 21:56:22,523 basehttp 9208 13264 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 27096
+WARNING 2025-07-22 21:56:22,563 basehttp 9208 29412 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:56:22,568 basehttp 9208 13264 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:56:45,305 autoreload 9208 31236 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:56:45,832 autoreload 25316 19792 Watching for file changes with StatReloader
+INFO 2025-07-22 21:57:00,670 basehttp 25316 4328 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 17942
+INFO 2025-07-22 21:57:02,764 basehttp 25316 4328 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 27096
+WARNING 2025-07-22 21:57:02,802 basehttp 25316 21996 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:57:02,805 basehttp 25316 4328 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:57:08,060 basehttp 25316 4328 "POST /admin/profiles/userprofile/1/change/ HTTP/1.1" 302 0
+INFO 2025-07-22 21:57:08,078 basehttp 25316 4328 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 18179
+WARNING 2025-07-22 21:57:08,113 basehttp 25316 4328 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:57:09,309 basehttp 25316 21716 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 27443
+WARNING 2025-07-22 21:57:09,339 basehttp 25316 13688 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:57:09,341 basehttp 25316 21716 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:57:14,743 basehttp 25316 21716 "POST /admin/profiles/userprofile/1/change/ HTTP/1.1" 302 0
+INFO 2025-07-22 21:57:14,762 basehttp 25316 21716 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 18205
+WARNING 2025-07-22 21:57:14,790 basehttp 25316 21716 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:57:17,634 basehttp 25316 23396 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 27443
+WARNING 2025-07-22 21:57:17,667 basehttp 25316 11172 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:57:17,671 basehttp 25316 23396 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:57:29,640 basehttp 25316 23396 "POST /admin/profiles/userprofile/1/change/ HTTP/1.1" 302 0
+INFO 2025-07-22 21:57:29,657 basehttp 25316 23396 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 18189
+WARNING 2025-07-22 21:57:29,685 basehttp 25316 23396 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:57:31,368 basehttp 25316 3224 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 27420
+WARNING 2025-07-22 21:57:31,402 basehttp 25316 30960 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:57:31,406 basehttp 25316 3224 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:57:36,404 basehttp 25316 3224 "POST /admin/profiles/userprofile/1/change/ HTTP/1.1" 302 0
+INFO 2025-07-22 21:57:36,420 basehttp 25316 3224 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 18186
+WARNING 2025-07-22 21:57:36,448 basehttp 25316 3224 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:58:00,764 autoreload 25316 19792 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:58:01,389 autoreload 31376 33064 Watching for file changes with StatReloader
+INFO 2025-07-22 21:58:02,790 basehttp 31376 3264 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 17532
+WARNING 2025-07-22 21:58:02,813 basehttp 31376 3264 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:59:01,907 autoreload 31376 33064 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:59:02,470 autoreload 15744 14464 Watching for file changes with StatReloader
+INFO 2025-07-22 21:59:04,241 autoreload 15744 14464 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\profiles\admin.py changed, reloading.
+INFO 2025-07-22 21:59:04,887 autoreload 14044 21732 Watching for file changes with StatReloader
+INFO 2025-07-22 21:59:06,574 basehttp 14044 31444 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 17089
+WARNING 2025-07-22 21:59:06,614 basehttp 14044 31444 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:59:31,369 basehttp 14044 29084 "GET /admin/profiles/userprofile/1/change/ HTTP/1.1" 200 27429
+WARNING 2025-07-22 21:59:31,413 basehttp 14044 5188 "GET /static/profiles/js/business_subcategory.js HTTP/1.1" 404 1919
+INFO 2025-07-22 21:59:31,417 basehttp 14044 29084 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:59:43,489 basehttp 14044 29084 "GET /admin/profiles/userprofile/ HTTP/1.1" 200 17089
+INFO 2025-07-22 21:59:46,317 basehttp 14044 29084 "GET /admin/authentication/customuser/ HTTP/1.1" 200 16216
+INFO 2025-07-22 21:59:46,351 basehttp 14044 29084 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:59:48,400 basehttp 14044 29084 "GET /admin/authentication/customuser/17/change/ HTTP/1.1" 200 27138
+INFO 2025-07-22 21:59:48,425 basehttp 14044 30624 "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2025-07-22 21:59:48,427 basehttp 14044 880 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2025-07-22 21:59:48,430 basehttp 14044 29084 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-22 21:59:48,468 basehttp 14044 29084 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0

@@ -163,6 +163,8 @@ def profile_completion_status(request):
             completion_data['missing_fields'].append('business_name')
         if not profile.business_type:
             completion_data['missing_fields'].append('business_type')
+        if not profile.business_subcategory:
+            completion_data['missing_fields'].append('business_subcategory')
         if not profile.business_city:
             completion_data['missing_fields'].append('business_city')
         if not profile.business_province:
@@ -179,5 +181,45 @@ def profile_completion_status(request):
         return Response({
             'success': False,
             'message': 'Error checking profile completion status',
+            'error': str(e)
+        }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(['GET'])
+@permission_classes([permissions.AllowAny])
+@ratelimit(key='ip', rate='30/m', method='GET')
+def business_subcategories(request):
+    """
+    Get subcategory choices for a specific business type
+    """
+    try:
+        business_type = request.GET.get('business_type')
+        if not business_type:
+            return Response({
+                'success': False,
+                'message': 'business_type parameter is required'
+            }, status=status.HTTP_400_BAD_REQUEST)
+        
+        # Create a temporary profile instance to get subcategories
+        temp_profile = UserProfile(business_type=business_type)
+        subcategories = temp_profile.get_subcategory_choices()
+        
+        # Get all business types for reference
+        business_types = UserProfile.BUSINESS_TYPE_CHOICES
+        
+        return Response({
+            'success': True,
+            'message': 'Subcategories retrieved successfully',
+            'data': {
+                'business_type': business_type,
+                'subcategories': subcategories,
+                'business_types': business_types
+            }
+        })
+    except Exception as e:
+        logger.error(f"Error retrieving subcategories for business type {business_type}: {str(e)}")
+        return Response({
+            'success': False,
+            'message': 'Error retrieving subcategories',
             'error': str(e)
         }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
