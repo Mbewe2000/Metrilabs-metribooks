@@ -1,218 +1,87 @@
 from django.contrib import admin
-from django.contrib.auth import get_user_model
-from .models import ServiceCategory, Service, Worker, ServiceRecord, WorkerPerformance
-
-User = get_user_model()
+from .models import ServiceCategory, Service, WorkRecord
 
 
 @admin.register(ServiceCategory)
 class ServiceCategoryAdmin(admin.ModelAdmin):
     list_display = ['name', 'description', 'created_at']
     search_fields = ['name', 'description']
-    readonly_fields = ['created_at']
-
-
-class ServiceRecordInline(admin.TabularInline):
-    model = ServiceRecord
-    extra = 0
-    readonly_fields = ['total_amount', 'remaining_balance', 'is_fully_paid']
-    fields = [
-        'date_performed', 'service', 'hours_worked', 'used_fixed_price',
-        'total_amount', 'payment_status', 'amount_paid'
-    ]
+    readonly_fields = ['created_at', 'updated_at']
+    ordering = ['name']
 
 
 @admin.register(Service)
 class ServiceAdmin(admin.ModelAdmin):
     list_display = [
-        'name', 'user', 'category', 'pricing_type', 'hourly_rate', 
+        'name', 'category', 'pricing_type', 'hourly_rate', 
         'fixed_price', 'is_active', 'created_at'
     ]
-    list_filter = ['pricing_type', 'category', 'is_active', 'created_at']
-    search_fields = ['name', 'description', 'user__email']
+    list_filter = ['pricing_type', 'is_active', 'category', 'created_at']
+    search_fields = ['name', 'description']
     readonly_fields = ['created_at', 'updated_at']
+    ordering = ['name']
     
     fieldsets = (
         ('Basic Information', {
-            'fields': ('user', 'name', 'description', 'category', 'is_active')
+            'fields': ('name', 'category', 'description')
         }),
         ('Pricing', {
             'fields': ('pricing_type', 'hourly_rate', 'fixed_price')
         }),
-        ('Metadata', {
-            'fields': ('created_at', 'updated_at'),
-            'classes': ('collapse',)
-        })
-    )
-    
-    def get_queryset(self, request):
-        qs = super().get_queryset(request)
-        if request.user.is_superuser:
-            return qs
-        return qs.filter(user=request.user)
-    
-    def formfield_for_foreignkey(self, db_field, request, **kwargs):
-        if db_field.name == "user" and not request.user.is_superuser:
-            kwargs["queryset"] = User.objects.filter(id=request.user.id)
-            kwargs["initial"] = request.user.id
-        return super().formfield_for_foreignkey(db_field, request, **kwargs)
-
-
-@admin.register(Worker)
-class WorkerAdmin(admin.ModelAdmin):
-    list_display = [
-        'name', 'user', 'employee_id', 'is_owner', 'is_active', 
-        'services_count', 'hired_date', 'created_at'
-    ]
-    list_filter = ['is_owner', 'is_active', 'hired_date', 'created_at']
-    search_fields = ['name', 'employee_id', 'phone', 'email', 'user__email']
-    readonly_fields = ['created_at', 'updated_at']
-    filter_horizontal = ['services']
-    inlines = [ServiceRecordInline]
-    
-    fieldsets = (
-        ('Basic Information', {
-            'fields': ('user', 'name', 'employee_id', 'phone', 'email')
-        }),
         ('Status', {
-            'fields': ('is_owner', 'is_active', 'hired_date')
+            'fields': ('is_active',)
         }),
-        ('Services', {
-            'fields': ('services',)
-        }),
-        ('Metadata', {
+        ('Timestamps', {
             'fields': ('created_at', 'updated_at'),
             'classes': ('collapse',)
         })
     )
     
-    def services_count(self, obj):
-        return obj.services.count()
-    services_count.short_description = 'Services Count'
-    
-    def get_queryset(self, request):
-        qs = super().get_queryset(request)
-        if request.user.is_superuser:
-            return qs
-        return qs.filter(user=request.user)
-    
-    def formfield_for_foreignkey(self, db_field, request, **kwargs):
-        if db_field.name == "user" and not request.user.is_superuser:
-            kwargs["queryset"] = User.objects.filter(id=request.user.id)
-            kwargs["initial"] = request.user.id
-        return super().formfield_for_foreignkey(db_field, request, **kwargs)
-    
-    def formfield_for_manytomany(self, db_field, request, **kwargs):
-        if db_field.name == "services" and not request.user.is_superuser:
-            kwargs["queryset"] = Service.objects.filter(user=request.user)
-        return super().formfield_for_manytomany(db_field, request, **kwargs)
+    def get_form(self, request, obj=None, **kwargs):
+        """Customize form based on pricing type"""
+        form = super().get_form(request, obj, **kwargs)
+        return form
 
 
-@admin.register(ServiceRecord)
-class ServiceRecordAdmin(admin.ModelAdmin):
+@admin.register(WorkRecord)
+class WorkRecordAdmin(admin.ModelAdmin):
     list_display = [
-        'date_performed', 'worker', 'service', 'customer_name',
-        'hours_worked', 'total_amount', 'payment_status', 'created_at'
+        'get_worker_name', 'service', 'date_of_work', 
+        'hours_worked', 'quantity', 'total_amount', 'worker_type'
     ]
-    list_filter = [
-        'payment_status', 'used_fixed_price', 'date_performed', 'created_at'
-    ]
+    list_filter = ['worker_type', 'date_of_work', 'service', 'employee']
     search_fields = [
-        'customer_name', 'reference_number', 'notes',
-        'worker__name', 'service__name', 'user__email'
+        'service__name', 'employee__employee_name', 
+        'owner_name', 'notes'
     ]
-    readonly_fields = [
-        'remaining_balance', 'is_fully_paid', 'created_at', 'updated_at'
-    ]
-    date_hierarchy = 'date_performed'
+    readonly_fields = ['total_amount', 'created_at', 'updated_at']
+    date_hierarchy = 'date_of_work'
+    ordering = ['-date_of_work', '-created_at']
     
     fieldsets = (
-        ('Basic Information', {
-            'fields': ('user', 'worker', 'service', 'date_performed', 'customer_name')
+        ('Worker Information', {
+            'fields': ('worker_type', 'employee', 'owner_name')
         }),
         ('Work Details', {
-            'fields': (
-                'start_time', 'end_time', 'hours_worked', 'notes', 'reference_number'
-            )
+            'fields': ('service', 'date_of_work', 'hours_worked', 'quantity', 'notes')
         }),
-        ('Pricing', {
-            'fields': (
-                'used_fixed_price', 'hourly_rate_used', 'fixed_price_used', 'total_amount'
-            )
+        ('Calculated Fields', {
+            'fields': ('total_amount',),
+            'classes': ('collapse',)
         }),
-        ('Payment', {
-            'fields': (
-                'payment_status', 'amount_paid', 'remaining_balance', 'is_fully_paid'
-            )
-        }),
-        ('Metadata', {
+        ('Timestamps', {
             'fields': ('created_at', 'updated_at'),
             'classes': ('collapse',)
         })
     )
     
-    def get_queryset(self, request):
-        qs = super().get_queryset(request)
-        if request.user.is_superuser:
-            return qs
-        return qs.filter(user=request.user)
+    def get_worker_name(self, obj):
+        """Display worker name in admin list"""
+        return obj.get_worker_name()
+    get_worker_name.short_description = 'Worker'
+    get_worker_name.admin_order_field = 'employee__employee_name'
     
-    def formfield_for_foreignkey(self, db_field, request, **kwargs):
-        if not request.user.is_superuser:
-            if db_field.name == "user":
-                kwargs["queryset"] = User.objects.filter(id=request.user.id)
-                kwargs["initial"] = request.user.id
-            elif db_field.name == "worker":
-                kwargs["queryset"] = Worker.objects.filter(user=request.user)
-            elif db_field.name == "service":
-                kwargs["queryset"] = Service.objects.filter(user=request.user)
-        return super().formfield_for_foreignkey(db_field, request, **kwargs)
-
-
-@admin.register(WorkerPerformance)
-class WorkerPerformanceAdmin(admin.ModelAdmin):
-    list_display = [
-        'worker', 'year', 'month', 'total_services_performed',
-        'total_hours_worked', 'total_revenue_generated', 'average_hourly_rate'
-    ]
-    list_filter = ['year', 'month', 'worker']
-    search_fields = ['worker__name', 'user__email']
-    readonly_fields = [
-        'total_hours_worked', 'total_services_performed', 'total_revenue_generated',
-        'average_hourly_rate', 'services_breakdown', 'created_at', 'updated_at'
-    ]
-    
-    fieldsets = (
-        ('Period', {
-            'fields': ('user', 'worker', 'year', 'month')
-        }),
-        ('Performance Metrics', {
-            'fields': (
-                'total_hours_worked', 'total_services_performed',
-                'total_revenue_generated', 'average_hourly_rate'
-            )
-        }),
-        ('Service Breakdown', {
-            'fields': ('services_breakdown',),
-            'classes': ('collapse',)
-        }),
-        ('Metadata', {
-            'fields': ('created_at', 'updated_at'),
-            'classes': ('collapse',)
-        })
-    )
-    
-    def get_queryset(self, request):
-        qs = super().get_queryset(request)
-        if request.user.is_superuser:
-            return qs
-        return qs.filter(user=request.user)
-    
-    def formfield_for_foreignkey(self, db_field, request, **kwargs):
-        if not request.user.is_superuser:
-            if db_field.name == "user":
-                kwargs["queryset"] = User.objects.filter(id=request.user.id)
-                kwargs["initial"] = request.user.id
-            elif db_field.name == "worker":
-                kwargs["queryset"] = Worker.objects.filter(user=request.user)
-        return super().formfield_for_foreignkey(db_field, request, **kwargs)
+    def get_form(self, request, obj=None, **kwargs):
+        """Customize form behavior"""
+        form = super().get_form(request, obj, **kwargs)
+        return form

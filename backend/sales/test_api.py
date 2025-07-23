@@ -79,7 +79,6 @@ class SalesAPITestCase(TestCase):
         )
         
         self.service = Service.objects.create(
-            user=self.user,
             name='Phone Repair',
             description='Smartphone repair service',
             category=self.service_category,

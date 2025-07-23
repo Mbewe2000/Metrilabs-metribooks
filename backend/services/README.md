@@ -1,380 +1,229 @@
 # Services Module
 
-The Services module is a comprehensive Django application that provides service management capabilities for businesses. It enables users to define services, manage workers, track service records, and monitor performance metrics with complete user isolation and security.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Models](#models)
-- [API Endpoints](#api-endpoints)
-- [Authentication & Security](#authentication--security)
-- [Testing](#testing)
-- [Installation & Setup](#installation--setup)
-- [Usage Examples](#usage-examples)
-- [Performance & Analytics](#performance--analytics)
-
-## Overview
-
-The Services module supports various business types including:
-- **Service Providers**: Hair salons, cleaning services, repair shops
-- **Consultancies**: Legal, accounting, IT consulting
-- **Labor Services**: Construction, handyman, delivery services
-- **Professional Services**: Photography, design, tutoring
+A comprehensive Django app for managing services, work assignments, and employee performance tracking in the Metribooks system.
 
 ## Features
 
-### Core Functionality
-- ✅ **Service Management**: Create and manage different types of services with flexible pricing
-- ✅ **Worker Management**: Track employees, contractors, and their service assignments
-- ✅ **Service Records**: Log completed services with time tracking and payment status
-- ✅ **Performance Analytics**: Monitor worker performance and business metrics
-- ✅ **User Isolation**: Complete data separation between different businesses
-- ✅ **Payment Tracking**: Track pending, partial, and completed payments
-
-### Pricing Models
-- **Hourly Rate**: Services charged by the hour
-- **Fixed Price**: One-time fee services
-- **Hybrid**: Services that can be charged either way
-
-### Security Features
-- JWT token authentication
-- Rate limiting on API endpoints
-- User data isolation
-- Comprehensive error handling
-- Audit logging
+- **Service Management**: Define business services with hourly or fixed pricing
+- **Service Categories**: Organize services into categories (Beauty, Labor, Consultancy, etc.)
+- **Employee Assignment**: Assign services to employees or track owner work
+- **Work Recording**: Record work hours, tasks, and automatically calculate payments
+- **Performance Reports**: Generate summaries for employees and services
+- **Integration**: Seamlessly connects with employees and accounting modules
 
 ## Models
 
 ### ServiceCategory
-Global categories for organizing services.
-```python
-- name: Category name (unique)
-- description: Optional description
-- created_at: Timestamp
-```
+- `name`: Category name (e.g., "Beauty Services", "Labor", "Consultancy")
+- `description`: Optional category description
 
 ### Service
-User-specific service definitions.
-```python
-- user: Foreign key to User (isolated per user)
-- name: Service name (unique per user)
-- description: Optional service description
-- category: Foreign key to ServiceCategory
-- pricing_type: 'hourly', 'fixed', or 'both'
-- hourly_rate: Decimal field for hourly services
-- fixed_price: Decimal field for fixed services
-- estimated_hours: Expected duration
-- is_active: Service availability status
-```
+- `name`: Service name (e.g., "Haircut", "Cleaning", "Delivery")
+- `category`: Foreign key to ServiceCategory
+- `pricing_type`: 'hourly' or 'fixed'
+- `hourly_rate`: Rate per hour in ZMW (for hourly services)
+- `fixed_price`: Fixed price in ZMW (for fixed-price services)
+- `description`: Optional service description
+- `is_active`: Whether service is currently offered
 
-### Worker
-Employee/contractor management.
-```python
-- user: Foreign key to User (isolated per user)
-- name: Worker name (unique per user)
-- email: Optional contact email
-- phone: Optional contact phone
-- role: Worker role/title
-- hourly_rate: Worker's hourly rate
-- is_owner: Boolean for business owner
-- is_active: Worker availability status
-- services: Many-to-many with Service
-```
-
-### ServiceRecord
-Individual service transaction records.
-```python
-- user: Foreign key to User (isolated per user)
-- service: Foreign key to Service
-- worker: Foreign key to Worker
-- client_name: Customer name
-- client_contact: Customer contact info
-- start_time: Service start timestamp
-- end_time: Service completion timestamp
-- hours_worked: Auto-calculated duration
-- hourly_rate_used: Rate applied for this service
-- fixed_price_used: Fixed amount charged
-- total_amount: Auto-calculated total
-- payment_status: 'pending', 'partial', 'completed'
-- amount_paid: Amount received
-- notes: Additional service notes
-```
-
-### WorkerPerformance
-Performance tracking and analytics.
-```python
-- user: Foreign key to User
-- worker: Foreign key to Worker
-- month: Performance month
-- year: Performance year
-- services_completed: Number of services
-- total_hours: Total hours worked
-- total_revenue: Total revenue generated
-- average_rating: Customer satisfaction
-```
+### WorkRecord
+- `worker_type`: 'employee' or 'owner'
+- `employee`: Foreign key to Employee (if worker_type is 'employee')
+- `owner_name`: Owner name (if worker_type is 'owner')
+- `service`: Foreign key to Service
+- `date_of_work`: Date when work was performed
+- `hours_worked`: Hours worked (for hourly services)
+- `quantity`: Number of services performed (for fixed-price services)
+- `total_amount`: Auto-calculated total payment
+- `notes`: Optional work notes
 
 ## API Endpoints
 
-All endpoints require JWT authentication and follow RESTful conventions.
-
 ### Service Categories
-```
-GET /api/services/categories/          # List all categories
-```
+**Base URL: `/api/services/categories/`**
+- `GET /categories/` - List all categories
+- `POST /categories/` - Create new category
+- `GET /categories/{id}/` - Get category details
+- `PUT/PATCH /categories/{id}/` - Update category
+- `DELETE /categories/{id}/` - Delete category
 
-### Service Management
-```
-GET    /api/services/services/         # List user's services
-POST   /api/services/services/create/  # Create new service
-GET    /api/services/services/{id}/    # Get service details
-PUT    /api/services/services/{id}/    # Update service
-DELETE /api/services/services/{id}/    # Delete service
-```
+### Services
+**Base URL: `/api/services/services/`**
+- `GET /services/` - List all services
+- `POST /services/` - Create new service
+- `GET /services/{id}/` - Get service details
+- `PUT/PATCH /services/{id}/` - Update service
+- `DELETE /services/{id}/` - Delete service
 
-### Worker Management
-```
-GET    /api/services/workers/          # List user's workers
-POST   /api/services/workers/create/   # Create new worker
-GET    /api/services/workers/{id}/     # Get worker details
-PUT    /api/services/workers/{id}/     # Update worker
-DELETE /api/services/workers/{id}/     # Delete worker
-```
+#### Custom Service Endpoints
+- `GET /services/active_services/` - Get all active services
+- `GET /services/hourly_services/` - Get all hourly services
+- `GET /services/fixed_price_services/` - Get all fixed-price services
 
-### Service Records
-```
-GET    /api/services/records/          # List user's service records
-POST   /api/services/records/create/   # Create new record
-GET    /api/services/records/{id}/     # Get record details
-PUT    /api/services/records/{id}/     # Update record
-DELETE /api/services/records/{id}/     # Delete record
-```
+### Work Records
+**Base URL: `/api/services/work-records/`**
+- `GET /work-records/` - List all work records
+- `POST /work-records/` - Create new work record
+- `GET /work-records/{id}/` - Get work record details
+- `PUT/PATCH /work-records/{id}/` - Update work record
+- `DELETE /work-records/{id}/` - Delete work record
 
-### Payment Management
-```
-POST /api/services/records/{id}/update-payment/  # Update payment status
-```
+#### Custom Work Record Endpoints
+- `GET /work-records/today_records/` - Get today's work records
+- `GET /work-records/this_week_records/` - Get this week's work records
+- `GET /work-records/employee_summary/` - Get employee performance summary
+- `GET /work-records/service_report/` - Get service performance report
 
-### Reports & Analytics
-```
-GET /api/services/dashboard/                # Dashboard summary
-GET /api/services/reports/summary/          # Service records summary
-GET /api/services/reports/performance/      # Worker performance report
-```
+## Query Parameters
 
-## Authentication & Security
+### Services
+- `search` - Search by service name or description
+- `is_active` - Filter by active status (true/false)
+- `pricing_type` - Filter by pricing type (hourly/fixed)
+- `category` - Filter by category ID
+- `ordering` - Order by name, created_at, hourly_rate, fixed_price
 
-### JWT Authentication
-All API endpoints require valid JWT tokens:
-```http
-Authorization: Bearer <your-jwt-token>
-```
-
-### Rate Limiting
-- Service creation: 50 requests per hour per user
-- Worker creation: 30 requests per hour per user
-- Record creation: 100 requests per hour per user
-
-### User Isolation
-Every data model is isolated by user. Users can only access their own:
-- Services
-- Workers
-- Service records
-- Performance data
-
-### Error Handling
-Standardized error responses:
-```json
-{
-    "success": false,
-    "message": "Error description",
-    "errors": ["Detailed error messages"]
-}
-```
-
-## Testing
-
-Comprehensive test suite with 29 tests covering:
-
-### Model Tests (23 tests)
-- Service category creation and constraints
-- Service creation with different pricing models
-- Worker management and service assignments
-- Service record calculations and validations
-- Performance metric generation
-- Django signals testing
-- User isolation verification
-
-### API Tests (6 tests)
-- Authentication and authorization
-- CRUD operations for all endpoints
-- User data isolation
-- Dashboard functionality
-- Security validation
-
-### Running Tests
-```bash
-# Run all services tests
-python manage.py test services
-
-# Run only model tests
-python manage.py test services.tests
-
-# Run only API tests
-python manage.py test services.test_api
-
-# Run with verbose output
-python manage.py test services -v 2
-```
-
-## Installation & Setup
-
-### 1. Dependencies
-Ensure these packages are installed:
-```python
-# In requirements.txt
-django>=5.2.4
-djangorestframework>=3.15.2
-djangorestframework-simplejwt>=5.3.0
-django-ratelimit>=4.1.0
-```
-
-### 2. Django Settings
-Add to `INSTALLED_APPS`:
-```python
-INSTALLED_APPS = [
-    # ... other apps
-    'rest_framework',
-    'rest_framework_simplejwt',
-    'services',
-]
-```
-
-### 3. URL Configuration
-Include in main `urls.py`:
-```python
-urlpatterns = [
-    # ... other patterns
-    path('api/services/', include('services.urls')),
-]
-```
-
-### 4. Database Migration
-```bash
-python manage.py makemigrations services
-python manage.py migrate
-```
-
-### 5. Signal Setup
-Signals are automatically configured to:
-- Create default service categories for new users
-- Update worker performance when service records change
+### Work Records
+- `search` - Search by service name, employee name, owner name, or notes
+- `worker_type` - Filter by worker type (employee/owner)
+- `employee` - Filter by employee ID
+- `service` - Filter by service ID
+- `start_date` - Filter by start date (YYYY-MM-DD)
+- `end_date` - Filter by end date (YYYY-MM-DD)
+- `ordering` - Order by date_of_work, total_amount, created_at
 
 ## Usage Examples
 
-### Creating a Service
-```python
-# POST /api/services/services/create/
+### Create Service Category
+```json
+POST /api/services/categories/
+{
+    "name": "Beauty Services",
+    "description": "Hair, nails, and beauty treatments"
+}
+```
+
+### Create Hourly Service
+```json
+POST /api/services/services/
+{
+    "name": "Hair Washing",
+    "category": 1,
+    "pricing_type": "hourly",
+    "hourly_rate": "25.00",
+    "description": "Professional hair washing service"
+}
+```
+
+### Create Fixed-Price Service
+```json
+POST /api/services/services/
 {
     "name": "Haircut",
-    "description": "Professional haircut service",
     "category": 1,
-    "pricing_type": "both",
-    "hourly_rate": "25.00",
-    "fixed_price": "30.00",
-    "estimated_hours": "1.00"
+    "pricing_type": "fixed",
+    "fixed_price": "50.00",
+    "description": "Standard haircut service"
 }
 ```
 
-### Creating a Worker
-```python
-# POST /api/services/workers/create/
+### Record Employee Work (Hourly)
+```json
+POST /api/services/work-records/
 {
-    "name": "John Smith",
-    "email": "john@example.com",
-    "phone": "+1234567890",
-    "role": "Senior Stylist",
-    "hourly_rate": "20.00",
-    "is_owner": false,
-    "services": [1, 2, 3]
-}
-```
-
-### Recording a Service
-```python
-# POST /api/services/records/create/
-{
+    "worker_type": "employee",
+    "employee": 1,
     "service": 1,
-    "worker": 1,
-    "client_name": "Jane Doe",
-    "client_contact": "jane@example.com",
-    "start_time": "2025-07-23T10:00:00Z",
-    "end_time": "2025-07-23T11:30:00Z",
-    "hourly_rate_used": "25.00",
-    "payment_status": "pending",
-    "notes": "Customer requested styling tips"
+    "date_of_work": "2025-07-23",
+    "hours_worked": "3.5",
+    "notes": "Regular cleaning service"
 }
 ```
 
-### Query Parameters
-Services list supports filtering:
+### Record Owner Work (Fixed Price)
+```json
+POST /api/services/work-records/
+{
+    "worker_type": "owner",
+    "owner_name": "Business Owner",
+    "service": 2,
+    "date_of_work": "2025-07-23",
+    "quantity": 2,
+    "notes": "Performed 2 haircuts"
+}
 ```
-GET /api/services/services/?category=beauty&is_active=true&search=haircut
+
+### Get Employee Summary
+```
+GET /api/services/work-records/employee_summary/?start_date=2025-07-01&end_date=2025-07-31
 ```
 
-## Performance & Analytics
+### Get Service Report
+```
+GET /api/services/work-records/service_report/?start_date=2025-07-01&end_date=2025-07-31
+```
 
-### Dashboard Metrics
-The dashboard endpoint provides:
-- Total active services
-- Total active workers
-- Service records summary (today, this week, this month)
-- Revenue totals and averages
-- Top performing workers
-- Payment status breakdown
+## Integration Points
 
-### Worker Performance
-Track individual worker metrics:
-- Services completed per month
+### With Employees Module
+- **Foreign Key Relationship**: `WorkRecord.employee -> Employee`
+- **Employee Assignment**: Services can be assigned to specific employees
+- **Performance Tracking**: Track which employees perform which services
+
+### With Accounting Module (Future)
+- **Expense Integration**: Work records can be linked to expense entries
+- **Payroll Processing**: Employee work hours can feed into payroll calculations
+- **Revenue Tracking**: Service income can be categorized and tracked
+- **Cost Analysis**: Compare service revenue vs. employee costs
+
+### With Future Modules
+- **Customer Management**: Link work records to specific customers
+- **Inventory**: Track materials used in services
+- **Scheduling**: Integration with appointment/booking systems
+
+## Reports & Analytics
+
+### Employee Performance Summary
 - Total hours worked
-- Revenue generated
-- Average customer ratings
-- Performance trends
-
-### Service Records Summary
-Comprehensive reporting with filters:
+- Total earnings
+- Number of tasks completed
+- Services performed
 - Date range filtering
-- Payment status breakdown
-- Revenue analysis
-- Client activity tracking
 
-## File Structure
+### Service Performance Report
+- Total revenue per service
+- Number of tasks completed
+- Total hours (for hourly services)
+- Average revenue per task
+- Service popularity ranking
 
-```
-services/
-├── __init__.py
-├── admin.py              # Django admin configuration
-├── apps.py              # App configuration
-├── models.py            # Data models
-├── serializers.py       # DRF serializers
-├── signals.py           # Django signals
-├── tests.py             # Model tests
-├── test_api.py          # API tests
-├── urls.py              # URL routing
-├── views.py             # API views
-├── migrations/          # Database migrations
-└── README.md            # This file
-```
+## Installation
 
-## Support & Contributing
+1. Add 'services' to INSTALLED_APPS in settings.py
+2. Add URL pattern to main urls.py: `path('api/services/', include('services.urls'))`
+3. Run migrations: `python manage.py makemigrations services && python manage.py migrate`
+4. Ensure 'employees' app is installed and migrated first
 
-For issues, feature requests, or contributions:
-1. Check existing test coverage
-2. Add tests for new features
-3. Ensure all tests pass
-4. Follow Django and DRF best practices
-5. Maintain user isolation security
+## Admin Interface
 
-## License
+All models are registered with Django admin:
+- **ServiceCategory**: Basic category management
+- **Service**: Comprehensive service management with pricing controls
+- **WorkRecord**: Work record management with calculated totals and worker information
 
-This module is part of the MetriBooks project and follows the project's licensing terms.
+## Business Use Cases
+
+### Beauty Salon
+- Services: Haircut (ZMW 50), Manicure (ZMW 30), Hair Washing (ZMW 25/hour)
+- Employees: Hair stylists, nail technicians
+- Tracking: Daily services performed, employee earnings
+
+### Cleaning Service
+- Services: House Cleaning (ZMW 40/hour), Office Cleaning (ZMW 35/hour)
+- Employees: Cleaning staff
+- Tracking: Hours worked per location, total earnings
+
+### Tailoring Shop
+- Services: Shirt Tailoring (ZMW 80), Dress Making (ZMW 150), Alterations (ZMW 30/hour)
+- Mixed: Owner and employee work
+- Tracking: Pieces completed, time spent on custom work

@@ -165,7 +165,6 @@ class SaleItemModelTest(TestCase):
         )
         
         self.service = Service.objects.create(
-            user=self.user,
             name='Computer Repair',
             description='Computer repair service',
             category=self.service_category,

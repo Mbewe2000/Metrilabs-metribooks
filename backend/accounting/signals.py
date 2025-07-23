@@ -38,7 +38,7 @@ def create_income_record_from_sale(sender, instance, created, **kwargs):
                 update_monthly_financial_summary(instance.user, sale_date.year, sale_date.month)
 
 
-@receiver(post_save, sender='services.ServiceRecord')
+@receiver(post_save, sender='services.WorkRecord')
 def create_income_record_from_service(sender, instance, created, **kwargs):
     """Create income record when a service is completed and paid"""
     from .models import IncomeRecord, TurnoverTaxRecord, FinancialSummary

@@ -2083,3 +2083,110 @@ WARNING 2025-07-23 13:35:55,073 log 25744 10824 Not Found: /api/services/service
 WARNING 2025-07-23 13:35:55,075 log 25744 10824 Not Found: /api/services/workers/3/
 WARNING 2025-07-23 13:35:55,079 log 25744 10824 Not Found: /api/services/services/1/
 WARNING 2025-07-23 13:35:55,081 log 25744 10824 Not Found: /api/services/workers/3/
+INFO 2025-07-23 15:02:59,545 basehttp 13724 15116 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-07-23 15:02:59,608 basehttp 13724 15116 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+INFO 2025-07-23 15:02:59,720 basehttp 13724 14576 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-07-23 15:02:59,724 basehttp 13724 21828 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-07-23 15:02:59,727 basehttp 13724 15116 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-07-23 15:02:59,730 basehttp 13724 14576 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-07-23 15:02:59,736 basehttp 13724 21828 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-07-23 15:02:59,743 basehttp 13724 15116 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-07-23 15:02:59,747 basehttp 13724 14576 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-07-23 15:03:00,782 log 13724 14576 Not Found: /favicon.ico
+WARNING 2025-07-23 15:03:00,789 basehttp 13724 14576 "GET /favicon.ico HTTP/1.1" 404 3289
+INFO 2025-07-23 15:03:38,242 autoreload 19632 32228 Watching for file changes with StatReloader
+INFO 2025-07-23 15:04:10,729 basehttp 13724 14576 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-07-23 15:04:10,785 basehttp 13724 14576 "GET /admin/ HTTP/1.1" 200 24943
+INFO 2025-07-23 15:04:10,829 basehttp 13724 14576 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-07-23 15:04:10,843 basehttp 13724 15116 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-07-23 15:04:10,843 basehttp 13724 21828 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-07-23 15:04:10,845 basehttp 13724 14576 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-07-23 15:04:17,509 basehttp 13724 14576 "GET /admin/employees/employee/ HTTP/1.1" 200 23874
+INFO 2025-07-23 15:04:17,558 basehttp 13724 14576 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-07-23 15:04:17,562 basehttp 13724 34820 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-07-23 15:04:17,563 basehttp 13724 19324 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-07-23 15:04:17,566 basehttp 13724 28912 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-07-23 15:04:17,571 basehttp 13724 15116 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 15:04:17,573 basehttp 13724 21828 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-07-23 15:04:17,579 basehttp 13724 14576 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-07-23 15:04:17,589 basehttp 13724 34820 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-07-23 15:04:17,601 basehttp 13724 19324 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-07-23 15:04:17,621 basehttp 13724 28912 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-07-23 15:04:17,633 basehttp 13724 21828 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-07-23 15:04:17,674 basehttp 13724 28912 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-07-23 15:04:17,684 basehttp 13724 21828 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+WARNING 2025-07-23 15:08:31,381 log 6788 29512 Unauthorized: /api/employees/employees/
+WARNING 2025-07-23 15:08:31,386 log 6788 29512 Unauthorized: /api/employees/employees/1/
+WARNING 2025-07-23 15:08:31,391 log 6788 29512 Unauthorized: /api/employees/employees/
+WARNING 2025-07-23 15:08:33,375 log 6788 29512 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 15:08:37,661 log 6788 29512 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 15:08:45,547 log 6788 29512 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 15:09:10,057 log 6788 29512 Unauthorized: /api/services/services/
+WARNING 2025-07-23 15:09:10,063 log 6788 29512 Unauthorized: /api/services/work-records/
+WARNING 2025-07-23 15:09:10,080 log 6788 29512 Unauthorized: /api/services/services/
+INFO 2025-07-23 15:12:29,854 autoreload 11680 13172 Watching for file changes with StatReloader
+INFO 2025-07-23 15:12:35,200 basehttp 13724 21548 "GET /admin/authentication/customuser/ HTTP/1.1" 200 26436
+INFO 2025-07-23 15:12:35,253 basehttp 13724 21548 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 15:12:35,255 basehttp 13724 28332 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-07-23 15:12:35,289 basehttp 13724 28332 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-07-23 15:15:41,943 autoreload 11680 13172 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\models.py changed, reloading.
+INFO 2025-07-23 15:15:42,840 autoreload 29572 21224 Watching for file changes with StatReloader
+INFO 2025-07-23 15:15:59,869 autoreload 29572 21224 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\models.py changed, reloading.
+INFO 2025-07-23 15:16:00,611 autoreload 22212 8124 Watching for file changes with StatReloader
+INFO 2025-07-23 15:16:34,214 basehttp 13724 28332 "GET /admin/authentication/customuser/ HTTP/1.1" 200 26436
+INFO 2025-07-23 15:16:34,267 basehttp 13724 28332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 15:16:38,750 basehttp 13724 28332 "GET /admin/services/servicecategory/ HTTP/1.1" 200 22301
+INFO 2025-07-23 15:16:38,810 basehttp 13724 28332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 15:16:41,548 basehttp 13724 28332 "GET /admin/services/service/ HTTP/1.1" 200 24032
+INFO 2025-07-23 15:16:41,638 basehttp 13724 28332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 15:16:43,605 basehttp 13724 28332 "GET /admin/services/workrecord/ HTTP/1.1" 200 23634
+INFO 2025-07-23 15:16:43,654 basehttp 13724 28332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 15:16:49,348 autoreload 22212 8124 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\models.py changed, reloading.
+INFO 2025-07-23 15:16:50,687 autoreload 20488 5928 Watching for file changes with StatReloader
+WARNING 2025-07-23 15:19:00,777 log 20548 6736 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 15:19:04,211 log 20548 6736 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 15:19:09,378 log 20548 6736 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 15:19:17,640 signals 20548 6736 No income record found for deleted sale SL202507230001
+WARNING 2025-07-23 15:19:21,969 log 20548 6736 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 15:19:21,971 log 20548 6736 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 15:19:22,841 log 20548 6736 Not Found: /api/sales/sales/1c1efd7d-ca53-430c-a0fd-70ecc5564829/
+WARNING 2025-07-23 15:22:58,358 log 35208 15116 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 15:23:01,831 log 35208 15116 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 15:23:07,042 log 35208 15116 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 15:23:15,609 signals 35208 15116 No income record found for deleted sale SL202507230001
+WARNING 2025-07-23 15:23:19,998 log 35208 15116 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 15:23:20,000 log 35208 15116 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 15:23:20,869 log 35208 15116 Not Found: /api/sales/sales/8212bf0a-3ee8-4945-8bd9-33b76013eeb6/
+WARNING 2025-07-23 15:24:10,859 log 32048 29504 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 15:24:14,303 log 32048 29504 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 15:24:19,435 log 32048 29504 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 15:24:27,676 signals 32048 29504 No income record found for deleted sale SL202507230001
+WARNING 2025-07-23 15:24:32,071 log 32048 29504 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 15:24:32,072 log 32048 29504 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 15:24:32,944 log 32048 29504 Not Found: /api/sales/sales/6dc8448b-de46-41f9-b5ce-ca3b93ab454e/
+ERROR 2025-07-23 15:24:41,677 log 32048 29504 Internal Server Error: /api/services/work-records/employee-performance/
+Traceback (most recent call last):
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    handler = getattr(self, action)
+AttributeError: 'WorkRecordViewSet' object has no attribute 'employee_performance'
+INFO 2025-07-23 15:25:14,245 autoreload 20488 5928 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\urls.py changed, reloading.
+INFO 2025-07-23 15:25:14,828 autoreload 29396 27948 Watching for file changes with StatReloader
+INFO 2025-07-23 15:25:23,946 autoreload 29396 27948 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\urls.py changed, reloading.
+INFO 2025-07-23 15:25:24,511 autoreload 9212 23284 Watching for file changes with StatReloader
+WARNING 2025-07-23 15:25:38,140 log 18972 12940 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 15:25:41,628 log 18972 12940 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 15:25:47,072 log 18972 12940 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 15:25:55,665 signals 18972 12940 No income record found for deleted sale SL202507230001
+WARNING 2025-07-23 15:26:00,044 log 18972 12940 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 15:26:00,045 log 18972 12940 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 15:26:00,914 log 18972 12940 Not Found: /api/sales/sales/e3dcf714-c6bc-4a6e-86ef-f5a08d8810f2/
+WARNING 2025-07-23 15:27:17,239 signals 8176 15032 No income record found for deleted sale SL202507230001
+WARNING 2025-07-23 15:27:21,461 log 8176 15032 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 15:27:21,462 log 8176 15032 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 15:27:22,343 log 8176 15032 Not Found: /api/sales/sales/d08c596e-f563-4597-9a26-61013317c477/
