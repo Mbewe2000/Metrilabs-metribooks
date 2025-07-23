@@ -1604,3 +1604,67 @@ INFO 2025-07-22 21:59:48,425 basehttp 14044 30624 "GET /static/admin/js/SelectBo
 INFO 2025-07-22 21:59:48,427 basehttp 14044 880 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
 INFO 2025-07-22 21:59:48,430 basehttp 14044 29084 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 INFO 2025-07-22 21:59:48,468 basehttp 14044 29084 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2025-07-23 03:03:22,918 autoreload 31576 33520 Watching for file changes with StatReloader
+INFO 2025-07-23 03:03:27,515 basehttp 31576 22004 "GET /admin/ HTTP/1.1" 200 17548
+WARNING 2025-07-23 03:03:29,620 log 31576 22004 Not Found: /favicon.ico
+WARNING 2025-07-23 03:03:29,626 basehttp 31576 22004 "GET /favicon.ico HTTP/1.1" 404 2665
+INFO 2025-07-23 03:03:31,774 basehttp 31576 22004 "GET /admin/inventory/inventory/ HTTP/1.1" 200 16135
+INFO 2025-07-23 03:03:33,900 basehttp 31576 22004 "GET /admin/inventory/productcategory/ HTTP/1.1" 200 15447
+INFO 2025-07-23 03:03:33,928 basehttp 31576 22004 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:03:35,230 basehttp 31576 22004 "GET /admin/inventory/product/ HTTP/1.1" 200 16940
+INFO 2025-07-23 03:03:35,260 basehttp 31576 22004 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:03:35,898 basehttp 31576 22004 "GET /admin/inventory/stockalert/ HTTP/1.1" 200 16092
+INFO 2025-07-23 03:03:35,927 basehttp 31576 22004 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:03:36,549 basehttp 31576 22004 "GET /admin/inventory/stockmovement/ HTTP/1.1" 200 16128
+ERROR 2025-07-23 03:06:32,447 views 14368 14240 Error creating product for user user1@example.com: UNIQUE constraint failed: inventory_inventory.product_id
+ERROR 2025-07-23 03:06:32,448 log 14368 14240 Internal Server Error: /api/inventory/products/create/
+WARNING 2025-07-23 03:06:33,297 log 14368 14240 Unauthorized: /api/inventory/products/
+ERROR 2025-07-23 03:06:35,889 views 14368 14240 Error creating product for user user1@example.com: UNIQUE constraint failed: inventory_inventory.product_id
+ERROR 2025-07-23 03:06:35,890 log 14368 14240 Internal Server Error: /api/inventory/products/create/
+ERROR 2025-07-23 03:06:36,745 views 14368 14240 Error deleting product for user user1@example.com: No Product matches the given query.
+ERROR 2025-07-23 03:06:36,746 log 14368 14240 Internal Server Error: /api/inventory/products/2/
+WARNING 2025-07-23 03:06:41,868 log 14368 14240 Bad Request: /api/inventory/products/1/adjust-stock/
+INFO 2025-07-23 03:07:19,162 autoreload 31576 33520 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\inventory\signals.py changed, reloading.
+INFO 2025-07-23 03:07:19,703 autoreload 6572 21272 Watching for file changes with StatReloader
+INFO 2025-07-23 03:08:36,561 autoreload 6572 21272 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\inventory\signals.py changed, reloading.
+INFO 2025-07-23 03:08:37,167 autoreload 25660 14600 Watching for file changes with StatReloader
+ERROR 2025-07-23 03:08:39,165 views 15576 3660 Error creating product for user user1@example.com: UNIQUE constraint failed: inventory_inventory.product_id
+ERROR 2025-07-23 03:08:39,166 log 15576 3660 Internal Server Error: /api/inventory/products/create/
+WARNING 2025-07-23 03:08:40,041 log 15576 3660 Unauthorized: /api/inventory/products/
+ERROR 2025-07-23 03:08:42,759 views 15576 3660 Error creating product for user user1@example.com: UNIQUE constraint failed: inventory_inventory.product_id
+ERROR 2025-07-23 03:08:42,773 log 15576 3660 Internal Server Error: /api/inventory/products/create/
+ERROR 2025-07-23 03:08:44,332 views 15576 3660 Error deleting product for user user1@example.com: No Product matches the given query.
+ERROR 2025-07-23 03:08:44,333 log 15576 3660 Internal Server Error: /api/inventory/products/2/
+WARNING 2025-07-23 03:08:50,584 log 15576 3660 Bad Request: /api/inventory/products/1/adjust-stock/
+INFO 2025-07-23 03:09:05,163 autoreload 25660 14600 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\inventory\serializers.py changed, reloading.
+INFO 2025-07-23 03:09:05,703 autoreload 19136 14724 Watching for file changes with StatReloader
+WARNING 2025-07-23 03:10:05,996 log 12896 12920 Unauthorized: /api/inventory/products/
+ERROR 2025-07-23 03:10:09,578 views 12896 12920 Error deleting product for user user1@example.com: No Product matches the given query.
+ERROR 2025-07-23 03:10:09,578 log 12896 12920 Internal Server Error: /api/inventory/products/2/
+WARNING 2025-07-23 03:10:14,832 log 12896 12920 Bad Request: /api/inventory/products/1/adjust-stock/
+INFO 2025-07-23 03:10:32,260 autoreload 19136 14724 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\inventory\views.py changed, reloading.
+INFO 2025-07-23 03:10:32,849 autoreload 29260 33412 Watching for file changes with StatReloader
+WARNING 2025-07-23 03:10:50,659 log 33516 32884 Not Found: /api/inventory/products/2/
+INFO 2025-07-23 03:10:58,606 autoreload 29260 33412 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\inventory\serializers.py changed, reloading.
+INFO 2025-07-23 03:10:59,313 autoreload 33452 12376 Watching for file changes with StatReloader
+WARNING 2025-07-23 03:11:19,352 log 29156 12488 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 03:11:22,898 log 29156 12488 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 03:11:28,195 log 29156 12488 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 03:11:55,920 log 17896 32624 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 03:11:59,467 log 17896 32624 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 03:12:04,755 log 17896 32624 Bad Request: /api/inventory/products/1/adjust-stock/
+INFO 2025-07-23 03:15:48,836 basehttp 33452 22248 "GET /admin/inventory/inventory/ HTTP/1.1" 200 18650
+INFO 2025-07-23 03:15:55,467 basehttp 33452 22248 "GET /admin/inventory/inventory/2/change/ HTTP/1.1" 200 20881
+INFO 2025-07-23 03:15:55,504 basehttp 33452 22248 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:15:59,704 basehttp 33452 22248 "GET /admin/inventory/productcategory/ HTTP/1.1" 200 22589
+INFO 2025-07-23 03:15:59,740 basehttp 33452 22248 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:16:03,463 basehttp 33452 22248 "GET /admin/inventory/productcategory/2/change/ HTTP/1.1" 200 18235
+INFO 2025-07-23 03:16:03,500 basehttp 33452 22248 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:16:07,851 basehttp 33452 22248 "GET /admin/inventory/product/ HTTP/1.1" 200 22488
+INFO 2025-07-23 03:16:07,889 basehttp 33452 22248 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:16:15,153 basehttp 33452 22248 "GET /admin/inventory/stockalert/ HTTP/1.1" 200 23357
+INFO 2025-07-23 03:16:15,184 basehttp 33452 22248 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:16:20,651 basehttp 33452 22248 "GET /admin/inventory/stockmovement/ HTTP/1.1" 200 19583
+INFO 2025-07-23 03:16:24,306 basehttp 33452 22248 "GET /admin/inventory/stockmovement/2/change/ HTTP/1.1" 200 22009
+INFO 2025-07-23 03:16:24,340 basehttp 33452 22248 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:16:30,468 basehttp 33452 22248 "GET /admin/inventory/stockmovement/ HTTP/1.1" 200 19583

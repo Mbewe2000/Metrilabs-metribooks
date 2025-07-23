@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django_db_logger',
     'authentication',
     'profiles',
+    'inventory',
 ]
 
 MIDDLEWARE = [
