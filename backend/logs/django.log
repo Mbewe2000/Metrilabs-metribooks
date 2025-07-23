@@ -2061,3 +2061,25 @@ WARNING 2025-07-23 05:24:09,475 log 31764 31360 Not Found: /api/services/service
 WARNING 2025-07-23 05:24:09,478 log 31764 31360 Not Found: /api/services/workers/3/
 WARNING 2025-07-23 05:24:09,483 log 31764 31360 Not Found: /api/services/services/1/
 WARNING 2025-07-23 05:24:09,485 log 31764 31360 Not Found: /api/services/workers/3/
+INFO 2025-07-23 05:26:29,666 basehttp 15420 20752 "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 34694
+INFO 2025-07-23 05:26:29,703 basehttp 15420 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 05:26:31,754 basehttp 15420 20752 "GET /admin/sales/sale/ HTTP/1.1" 200 21462
+INFO 2025-07-23 05:26:31,793 basehttp 15420 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 05:26:34,397 basehttp 15420 20752 "GET /admin/sales/salesreport/ HTTP/1.1" 200 20743
+INFO 2025-07-23 05:26:34,428 basehttp 15420 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-07-23 13:35:09,756 log 25744 10824 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 13:35:14,384 log 25744 10824 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 13:35:21,459 log 25744 10824 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 13:35:32,565 signals 25744 10824 No income record found for deleted sale SL202507230001
+WARNING 2025-07-23 13:35:38,297 log 25744 10824 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 13:35:38,299 log 25744 10824 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 13:35:39,479 log 25744 10824 Not Found: /api/sales/sales/20afb972-bccb-44a6-988d-0e036e672b0e/
+WARNING 2025-07-23 13:35:51,647 log 25744 10824 Not Found: /api/services/services/1/
+WARNING 2025-07-23 13:35:53,950 log 25744 10824 Unauthorized: /api/services/services/
+WARNING 2025-07-23 13:35:53,953 log 25744 10824 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 13:35:53,955 log 25744 10824 Unauthorized: /api/services/records/
+WARNING 2025-07-23 13:35:53,956 log 25744 10824 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 13:35:55,073 log 25744 10824 Not Found: /api/services/services/1/
+WARNING 2025-07-23 13:35:55,075 log 25744 10824 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 13:35:55,079 log 25744 10824 Not Found: /api/services/services/1/
+WARNING 2025-07-23 13:35:55,081 log 25744 10824 Not Found: /api/services/workers/3/
