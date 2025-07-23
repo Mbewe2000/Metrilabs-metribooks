@@ -1913,3 +1913,151 @@ INFO 2025-07-23 04:13:11,937 basehttp 32116 17316 "GET /admin/services/worker/? 
 INFO 2025-07-23 04:13:11,972 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 INFO 2025-07-23 04:13:16,897 basehttp 32116 17316 "GET /admin/services/workerperformance/ HTTP/1.1" 200 26370
 INFO 2025-07-23 04:13:16,926 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:33:39,345 autoreload 32116 6052 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\backend\settings.py changed, reloading.
+INFO 2025-07-23 04:33:40,054 autoreload 6008 31188 Watching for file changes with StatReloader
+INFO 2025-07-23 04:33:53,284 autoreload 6008 31188 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\backend\urls.py changed, reloading.
+INFO 2025-07-23 04:33:53,885 autoreload 5600 32072 Watching for file changes with StatReloader
+INFO 2025-07-23 04:34:24,955 autoreload 5600 32072 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\backend\urls.py changed, reloading.
+INFO 2025-07-23 04:34:25,611 autoreload 2716 26408 Watching for file changes with StatReloader
+INFO 2025-07-23 04:35:31,202 autoreload 2716 26408 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:35:31,780 autoreload 22244 17320 Watching for file changes with StatReloader
+INFO 2025-07-23 04:35:57,567 autoreload 22244 17320 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:35:58,230 autoreload 20240 1032 Watching for file changes with StatReloader
+INFO 2025-07-23 04:43:16,039 autoreload 20240 1032 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:43:16,714 autoreload 20720 32312 Watching for file changes with StatReloader
+INFO 2025-07-23 04:43:25,823 autoreload 20720 32312 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:43:26,412 autoreload 18872 15296 Watching for file changes with StatReloader
+INFO 2025-07-23 04:43:43,876 autoreload 18872 15296 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:43:44,541 autoreload 13776 6360 Watching for file changes with StatReloader
+INFO 2025-07-23 04:43:54,767 autoreload 13776 6360 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:43:55,378 autoreload 6304 10700 Watching for file changes with StatReloader
+INFO 2025-07-23 04:44:27,497 autoreload 6304 10700 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:44:28,168 autoreload 26100 12572 Watching for file changes with StatReloader
+INFO 2025-07-23 04:50:46,181 autoreload 26100 12572 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\models.py changed, reloading.
+INFO 2025-07-23 04:50:46,796 autoreload 33216 2376 Watching for file changes with StatReloader
+INFO 2025-07-23 04:56:07,135 autoreload 33216 2376 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:56:07,859 autoreload 25620 12548 Watching for file changes with StatReloader
+INFO 2025-07-23 04:56:24,253 autoreload 25620 12548 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:56:24,866 autoreload 22084 1580 Watching for file changes with StatReloader
+INFO 2025-07-23 04:56:40,300 autoreload 22084 1580 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\signals.py changed, reloading.
+INFO 2025-07-23 04:56:40,948 autoreload 25996 11576 Watching for file changes with StatReloader
+INFO 2025-07-23 04:56:51,104 autoreload 25996 11576 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\models.py changed, reloading.
+INFO 2025-07-23 04:56:51,852 autoreload 4756 33188 Watching for file changes with StatReloader
+WARNING 2025-07-23 05:01:59,649 log 15520 26376 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 05:02:03,138 log 15520 26376 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 05:02:08,403 log 15520 26376 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 05:02:30,935 log 15520 26376 Not Found: /api/services/services/1/
+WARNING 2025-07-23 05:02:32,674 log 15520 26376 Unauthorized: /api/services/services/
+WARNING 2025-07-23 05:02:32,675 log 15520 26376 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 05:02:32,677 log 15520 26376 Unauthorized: /api/services/records/
+WARNING 2025-07-23 05:02:32,678 log 15520 26376 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 05:02:33,525 log 15520 26376 Not Found: /api/services/services/1/
+WARNING 2025-07-23 05:02:33,528 log 15520 26376 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 05:02:33,530 log 15520 26376 Not Found: /api/services/services/1/
+WARNING 2025-07-23 05:02:33,532 log 15520 26376 Not Found: /api/services/workers/3/
+INFO 2025-07-23 05:04:35,858 basehttp 4756 28332 "GET /admin/services/workerperformance/ HTTP/1.1" 200 28104
+INFO 2025-07-23 05:04:35,898 basehttp 4756 28332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 05:04:38,425 basehttp 4756 28332 "GET /admin/sales/saleitem/ HTTP/1.1" 200 20412
+INFO 2025-07-23 05:04:38,465 basehttp 4756 28332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 05:04:41,439 basehttp 4756 28332 "GET /admin/sales/sale/ HTTP/1.1" 200 21462
+INFO 2025-07-23 05:04:41,469 basehttp 4756 28332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 05:04:43,393 basehttp 4756 28332 "GET /admin/sales/salesreport/ HTTP/1.1" 200 20743
+INFO 2025-07-23 05:04:43,423 basehttp 4756 28332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-07-23 05:04:49,607 views 32264 6580 Error creating sale for user testuser@example.com: 'Product' object has no attribute 'track_inventory'
+WARNING 2025-07-23 05:04:49,609 log 32264 6580 Bad Request: /api/sales/sales/create/
+ERROR 2025-07-23 05:04:52,187 views 32264 6580 Error creating sale for user testuser@example.com: 'Product' object has no attribute 'track_inventory'
+WARNING 2025-07-23 05:04:52,188 log 32264 6580 Bad Request: /api/sales/sales/create/
+WARNING 2025-07-23 05:04:53,065 log 32264 6580 Bad Request: /api/sales/sales/3eea5ba3-0bc4-4d86-919b-3cba48b70d53/
+WARNING 2025-07-23 05:04:57,421 log 32264 6580 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 05:04:57,423 log 32264 6580 Unauthorized: /api/sales/sales/create/
+INFO 2025-07-23 05:06:39,016 autoreload 4756 33188 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\views.py changed, reloading.
+INFO 2025-07-23 05:06:39,648 autoreload 25112 14120 Watching for file changes with StatReloader
+INFO 2025-07-23 05:07:33,478 autoreload 25112 14120 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\views.py changed, reloading.
+INFO 2025-07-23 05:07:34,102 autoreload 13444 9336 Watching for file changes with StatReloader
+INFO 2025-07-23 05:07:55,722 autoreload 13444 9336 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\views.py changed, reloading.
+INFO 2025-07-23 05:07:56,305 autoreload 14632 22932 Watching for file changes with StatReloader
+INFO 2025-07-23 05:09:59,439 basehttp 14632 21880 "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 80733
+INFO 2025-07-23 05:09:59,490 basehttp 14632 21880 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 05:10:20,306 basehttp 14632 21880 "POST /admin/django_db_logger/statuslog/ HTTP/1.1" 200 204180
+INFO 2025-07-23 05:10:24,485 basehttp 14632 21880 "POST /admin/django_db_logger/statuslog/ HTTP/1.1" 302 0
+INFO 2025-07-23 05:10:24,506 basehttp 14632 21880 "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 23439
+INFO 2025-07-23 05:10:24,538 basehttp 14632 21880 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-07-23 05:10:45,371 views 22700 16604 Error creating sale for user testuser@example.com: 'Product' object has no attribute 'track_inventory'
+WARNING 2025-07-23 05:10:45,373 log 22700 16604 Bad Request: /api/sales/sales/create/
+ERROR 2025-07-23 05:10:48,152 views 22700 16604 Error creating sale for user testuser@example.com: 'Product' object has no attribute 'track_inventory'
+WARNING 2025-07-23 05:10:48,153 log 22700 16604 Bad Request: /api/sales/sales/create/
+WARNING 2025-07-23 05:10:49,015 log 22700 16604 Bad Request: /api/sales/sales/cb437c59-1446-4ae1-9615-8194fcc7d759/
+WARNING 2025-07-23 05:10:53,316 log 22700 16604 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 05:10:53,317 log 22700 16604 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 05:10:54,209 log 22700 16604 Not Found: /api/sales/sales/408b8b14-83d5-4756-abc7-7620428580cf/
+INFO 2025-07-23 05:11:16,380 autoreload 14632 22932 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\serializers.py changed, reloading.
+INFO 2025-07-23 05:11:16,954 autoreload 11108 15124 Watching for file changes with StatReloader
+INFO 2025-07-23 05:11:45,854 autoreload 11108 15124 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\serializers.py changed, reloading.
+INFO 2025-07-23 05:11:46,402 autoreload 19592 31152 Watching for file changes with StatReloader
+INFO 2025-07-23 05:11:57,530 autoreload 19592 31152 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\serializers.py changed, reloading.
+INFO 2025-07-23 05:11:58,108 autoreload 33500 33516 Watching for file changes with StatReloader
+ERROR 2025-07-23 05:12:36,710 log 436 26968 Invalid HTTP_HOST header: 'testserver'. You may need to add 'testserver' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'testserver'. You may need to add 'testserver' to ALLOWED_HOSTS.
+WARNING 2025-07-23 05:13:55,270 log 5880 31268 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 05:13:58,783 log 5880 31268 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 05:14:04,059 log 5880 31268 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 05:14:12,258 log 5880 31268 Bad Request: /api/sales/sales/5fcb6e45-4386-4cdf-8724-96db0be74234/
+WARNING 2025-07-23 05:14:16,563 log 5880 31268 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 05:14:16,565 log 5880 31268 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 05:14:17,436 log 5880 31268 Not Found: /api/sales/sales/c9f41f7c-7745-48c6-ab13-bc829a40aa0a/
+WARNING 2025-07-23 05:14:26,516 log 5880 31268 Not Found: /api/services/services/1/
+WARNING 2025-07-23 05:14:28,258 log 5880 31268 Unauthorized: /api/services/services/
+WARNING 2025-07-23 05:14:28,259 log 5880 31268 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 05:14:28,260 log 5880 31268 Unauthorized: /api/services/records/
+WARNING 2025-07-23 05:14:28,260 log 5880 31268 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 05:14:29,121 log 5880 31268 Not Found: /api/services/services/1/
+WARNING 2025-07-23 05:14:29,124 log 5880 31268 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 05:14:29,125 log 5880 31268 Not Found: /api/services/services/1/
+WARNING 2025-07-23 05:14:29,127 log 5880 31268 Not Found: /api/services/workers/3/
+INFO 2025-07-23 05:19:43,132 autoreload 33500 33516 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\serializers.py changed, reloading.
+INFO 2025-07-23 05:19:43,715 autoreload 31748 18292 Watching for file changes with StatReloader
+INFO 2025-07-23 05:20:30,480 autoreload 31748 18292 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\serializers.py changed, reloading.
+INFO 2025-07-23 05:20:31,068 autoreload 22388 2632 Watching for file changes with StatReloader
+ERROR 2025-07-23 05:20:33,578 views 33136 25156 Error creating sale for user testuser@example.com: {'sale_number': [ErrorDetail(string='This field is required.', code='required')]}
+WARNING 2025-07-23 05:20:33,580 log 33136 25156 Bad Request: /api/sales/sales/create/
+ERROR 2025-07-23 05:20:34,460 views 33136 25156 Error creating sale for user testuser@example.com: {'sale_number': [ErrorDetail(string='This field is required.', code='required')]}
+WARNING 2025-07-23 05:20:34,460 log 33136 25156 Bad Request: /api/sales/sales/create/
+ERROR 2025-07-23 05:20:36,225 views 33136 25156 Error creating sale for user testuser@example.com: {'sale_number': [ErrorDetail(string='This field is required.', code='required')]}
+WARNING 2025-07-23 05:20:36,225 log 33136 25156 Bad Request: /api/sales/sales/create/
+WARNING 2025-07-23 05:20:41,397 log 33136 25156 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 05:20:41,398 log 33136 25156 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 05:20:42,255 log 33136 25156 Not Found: /api/sales/sales/d9f4d213-40fb-470f-814e-a6d0bc26462b/
+INFO 2025-07-23 05:21:06,397 autoreload 22388 2632 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\serializers.py changed, reloading.
+INFO 2025-07-23 05:21:06,950 autoreload 11844 11916 Watching for file changes with StatReloader
+INFO 2025-07-23 05:21:14,971 autoreload 11844 11916 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\sales\serializers.py changed, reloading.
+INFO 2025-07-23 05:21:15,579 autoreload 15420 1968 Watching for file changes with StatReloader
+WARNING 2025-07-23 05:21:25,732 log 9600 21256 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 05:21:25,733 log 9600 21256 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 05:21:26,595 log 9600 21256 Not Found: /api/sales/sales/31e5119c-9596-48cb-a03d-b42324d1ee42/
+WARNING 2025-07-23 05:23:21,547 log 31652 31508 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 05:23:21,550 log 31652 31508 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 05:23:22,402 log 31652 31508 Not Found: /api/sales/sales/54dcf7e5-f054-4b9a-bf81-2782878ba9b1/
+WARNING 2025-07-23 05:23:35,723 log 31764 31360 Unauthorized: /api/inventory/products/
+WARNING 2025-07-23 05:23:39,159 log 31764 31360 Not Found: /api/inventory/products/2/
+WARNING 2025-07-23 05:23:44,340 log 31764 31360 Bad Request: /api/inventory/products/1/adjust-stock/
+WARNING 2025-07-23 05:23:57,105 log 31764 31360 Unauthorized: /api/sales/sales/
+WARNING 2025-07-23 05:23:57,107 log 31764 31360 Unauthorized: /api/sales/sales/create/
+WARNING 2025-07-23 05:23:57,951 log 31764 31360 Not Found: /api/sales/sales/394df70c-6e80-4acc-8040-2a092ea711dd/
+WARNING 2025-07-23 05:24:06,911 log 31764 31360 Not Found: /api/services/services/1/
+WARNING 2025-07-23 05:24:08,624 log 31764 31360 Unauthorized: /api/services/services/
+WARNING 2025-07-23 05:24:08,625 log 31764 31360 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 05:24:08,626 log 31764 31360 Unauthorized: /api/services/records/
+WARNING 2025-07-23 05:24:08,627 log 31764 31360 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 05:24:09,475 log 31764 31360 Not Found: /api/services/services/1/
+WARNING 2025-07-23 05:24:09,478 log 31764 31360 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 05:24:09,483 log 31764 31360 Not Found: /api/services/services/1/
+WARNING 2025-07-23 05:24:09,485 log 31764 31360 Not Found: /api/services/workers/3/
