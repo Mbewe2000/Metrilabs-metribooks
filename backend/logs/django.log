@@ -1668,3 +1668,248 @@ INFO 2025-07-23 03:16:20,651 basehttp 33452 22248 "GET /admin/inventory/stockmov
 INFO 2025-07-23 03:16:24,306 basehttp 33452 22248 "GET /admin/inventory/stockmovement/2/change/ HTTP/1.1" 200 22009
 INFO 2025-07-23 03:16:24,340 basehttp 33452 22248 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 INFO 2025-07-23 03:16:30,468 basehttp 33452 22248 "GET /admin/inventory/stockmovement/ HTTP/1.1" 200 19583
+INFO 2025-07-23 03:29:47,646 autoreload 33452 12376 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\backend\settings.py changed, reloading.
+INFO 2025-07-23 03:29:48,337 autoreload 27876 6276 Watching for file changes with StatReloader
+INFO 2025-07-23 03:30:02,675 autoreload 27876 6276 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\backend\urls.py changed, reloading.
+INFO 2025-07-23 03:30:03,245 autoreload 13392 9452 Watching for file changes with StatReloader
+INFO 2025-07-23 03:30:34,209 autoreload 13392 9452 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\admin.py changed, reloading.
+INFO 2025-07-23 03:30:34,920 autoreload 10948 32188 Watching for file changes with StatReloader
+INFO 2025-07-23 03:32:20,912 basehttp 10948 30408 "GET /admin/inventory/stockmovement/ HTTP/1.1" 200 22353
+INFO 2025-07-23 03:32:22,668 basehttp 10948 30408 "GET /admin/inventory/stockmovement/ HTTP/1.1" 200 22353
+INFO 2025-07-23 03:32:24,434 basehttp 10948 30408 "GET /admin/services/servicecategory/ HTTP/1.1" 200 16751
+INFO 2025-07-23 03:32:24,466 basehttp 10948 30408 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:32:26,717 basehttp 10948 30408 "GET /admin/services/servicerecord/ HTTP/1.1" 200 19395
+INFO 2025-07-23 03:32:26,747 basehttp 10948 30408 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:32:29,531 basehttp 10948 30408 "GET /admin/services/service/ HTTP/1.1" 200 18569
+INFO 2025-07-23 03:32:29,560 basehttp 10948 30408 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:32:33,557 basehttp 10948 30408 "GET /admin/services/workerperformance/ HTTP/1.1" 200 17488
+INFO 2025-07-23 03:32:33,588 basehttp 10948 30408 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:32:35,992 basehttp 10948 30408 "GET /admin/inventory/productcategory/ HTTP/1.1" 200 25359
+INFO 2025-07-23 03:32:36,029 basehttp 10948 30408 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:32:39,852 basehttp 10948 30408 "GET /admin/services/servicecategory/ HTTP/1.1" 200 16751
+INFO 2025-07-23 03:32:39,888 basehttp 10948 30408 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:39:32,667 basehttp 10948 25804 "GET /admin/services/ HTTP/1.1" 200 8122
+INFO 2025-07-23 03:39:33,920 basehttp 10948 25804 "GET /admin/services/servicecategory/ HTTP/1.1" 200 16751
+INFO 2025-07-23 03:39:33,958 basehttp 10948 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:39:36,351 basehttp 10948 25804 "GET /admin/services/servicerecord/ HTTP/1.1" 200 19395
+INFO 2025-07-23 03:39:36,390 basehttp 10948 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:39:38,222 basehttp 10948 25804 "GET /admin/services/service/ HTTP/1.1" 200 18569
+INFO 2025-07-23 03:39:38,254 basehttp 10948 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:39:40,591 basehttp 10948 25804 "GET /admin/services/workerperformance/ HTTP/1.1" 200 17488
+INFO 2025-07-23 03:39:40,622 basehttp 10948 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:39:43,449 basehttp 10948 25804 "GET /admin/services/worker/ HTTP/1.1" 200 19166
+INFO 2025-07-23 03:39:43,478 basehttp 10948 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-07-23 03:40:46,221 log 18452 1588 Method Not Allowed: /api/services/services/
+WARNING 2025-07-23 03:40:47,092 log 18452 1588 Not Found: /api/services/service-records/
+WARNING 2025-07-23 03:40:47,945 log 18452 1588 Unauthorized: /api/services/services/
+WARNING 2025-07-23 03:40:47,946 log 18452 1588 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 03:40:47,948 log 18452 1588 Not Found: /api/services/service-records/
+WARNING 2025-07-23 03:40:48,803 log 18452 1588 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:40:48,806 log 18452 1588 Not Found: /api/services/workers/3/
+ERROR 2025-07-23 03:40:48,808 views 18452 1588 Error updating service for user user2@example.com: No Service matches the given query.
+ERROR 2025-07-23 03:40:48,809 log 18452 1588 Internal Server Error: /api/services/services/1/
+WARNING 2025-07-23 03:40:49,677 log 18452 1588 Method Not Allowed: /api/services/workers/
+ERROR 2025-07-23 03:42:43,824 log 14224 32568 Internal Server Error: /api/services/records/
+Traceback (most recent call last):
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 373, in fields
+    fields[key] = value
+    ~~~~~~^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\utils\serializer_helpers.py", line 167, in __setitem__
+    field.bind(field_name=key, parent=self.serializer)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\fields.py", line 358, in bind
+    assert self.source != field_name, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: It is redundant to specify `source='remaining_balance'` on field 'DecimalField' in serializer 'ServiceRecordSerializer', because it is the same as the field name. Remove the `source` keyword argument.
+WARNING 2025-07-23 03:42:44,687 log 14224 32568 Unauthorized: /api/services/services/
+WARNING 2025-07-23 03:42:44,689 log 14224 32568 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 03:42:44,690 log 14224 32568 Unauthorized: /api/services/records/
+WARNING 2025-07-23 03:42:44,690 log 14224 32568 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 03:42:45,549 log 14224 32568 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:42:45,552 log 14224 32568 Not Found: /api/services/workers/3/
+ERROR 2025-07-23 03:42:45,555 views 14224 32568 Error updating service for user user2@example.com: No Service matches the given query.
+ERROR 2025-07-23 03:42:45,555 log 14224 32568 Internal Server Error: /api/services/services/1/
+INFO 2025-07-23 03:43:07,543 autoreload 10948 32188 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\serializers.py changed, reloading.
+INFO 2025-07-23 03:43:08,101 autoreload 9020 32180 Watching for file changes with StatReloader
+INFO 2025-07-23 03:43:43,248 autoreload 9020 32180 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\serializers.py changed, reloading.
+INFO 2025-07-23 03:43:43,793 autoreload 24944 7820 Watching for file changes with StatReloader
+WARNING 2025-07-23 03:43:49,077 log 11868 6308 Unauthorized: /api/services/services/
+WARNING 2025-07-23 03:43:49,079 log 11868 6308 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 03:43:49,079 log 11868 6308 Unauthorized: /api/services/records/
+WARNING 2025-07-23 03:43:49,080 log 11868 6308 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 03:43:49,944 log 11868 6308 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:43:49,946 log 11868 6308 Not Found: /api/services/workers/3/
+ERROR 2025-07-23 03:43:49,949 views 11868 6308 Error updating service for user user2@example.com: No Service matches the given query.
+ERROR 2025-07-23 03:43:49,950 log 11868 6308 Internal Server Error: /api/services/services/1/
+WARNING 2025-07-23 03:45:41,869 log 25580 32320 Unauthorized: /api/services/services/
+WARNING 2025-07-23 03:45:41,870 log 25580 32320 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 03:45:41,871 log 25580 32320 Unauthorized: /api/services/records/
+WARNING 2025-07-23 03:45:41,873 log 25580 32320 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 03:45:42,725 log 25580 32320 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:45:42,726 log 25580 32320 Not Found: /api/services/workers/3/
+ERROR 2025-07-23 03:45:42,728 views 25580 32320 Error updating service for user user2@example.com: No Service matches the given query.
+ERROR 2025-07-23 03:45:42,729 log 25580 32320 Internal Server Error: /api/services/services/1/
+INFO 2025-07-23 03:48:00,476 autoreload 24944 7820 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\views.py changed, reloading.
+INFO 2025-07-23 03:48:01,020 autoreload 32620 27052 Watching for file changes with StatReloader
+INFO 2025-07-23 03:48:27,828 autoreload 32620 27052 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\views.py changed, reloading.
+INFO 2025-07-23 03:48:28,340 autoreload 2716 31816 Watching for file changes with StatReloader
+INFO 2025-07-23 03:48:49,918 autoreload 2716 31816 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\views.py changed, reloading.
+INFO 2025-07-23 03:48:50,500 autoreload 10200 19512 Watching for file changes with StatReloader
+WARNING 2025-07-23 03:49:31,932 log 21572 6008 Unauthorized: /api/services/services/
+WARNING 2025-07-23 03:49:31,933 log 21572 6008 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 03:49:31,934 log 21572 6008 Unauthorized: /api/services/records/
+WARNING 2025-07-23 03:49:31,935 log 21572 6008 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 03:49:32,777 log 21572 6008 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:49:32,779 log 21572 6008 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 03:49:32,782 log 21572 6008 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:49:32,784 log 21572 6008 Not Found: /api/services/workers/3/
+INFO 2025-07-23 03:50:06,291 autoreload 10200 19512 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\serializers.py changed, reloading.
+INFO 2025-07-23 03:50:06,855 autoreload 3564 31312 Watching for file changes with StatReloader
+INFO 2025-07-23 03:50:26,333 autoreload 3564 31312 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\serializers.py changed, reloading.
+INFO 2025-07-23 03:50:26,888 autoreload 16688 21640 Watching for file changes with StatReloader
+WARNING 2025-07-23 03:50:43,584 log 23104 19908 Unauthorized: /api/services/services/
+WARNING 2025-07-23 03:50:43,585 log 23104 19908 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 03:50:43,586 log 23104 19908 Unauthorized: /api/services/records/
+WARNING 2025-07-23 03:50:43,589 log 23104 19908 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 03:50:44,436 log 23104 19908 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:50:44,438 log 23104 19908 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 03:50:44,441 log 23104 19908 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:50:44,442 log 23104 19908 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 03:51:20,901 log 12924 31416 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:51:22,632 log 12924 31416 Unauthorized: /api/services/services/
+WARNING 2025-07-23 03:51:22,634 log 12924 31416 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 03:51:22,634 log 12924 31416 Unauthorized: /api/services/records/
+WARNING 2025-07-23 03:51:22,636 log 12924 31416 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 03:51:23,497 log 12924 31416 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:51:23,498 log 12924 31416 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 03:51:23,500 log 12924 31416 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:51:23,502 log 12924 31416 Not Found: /api/services/workers/3/
+INFO 2025-07-23 03:51:30,675 basehttp 16688 30104 "GET /admin/services/servicecategory/ HTTP/1.1" 200 16751
+INFO 2025-07-23 03:51:30,729 basehttp 16688 30104 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:51:32,361 basehttp 16688 30104 "GET /admin/services/servicerecord/ HTTP/1.1" 200 19395
+INFO 2025-07-23 03:51:32,399 basehttp 16688 30104 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:51:33,858 basehttp 16688 30104 "GET /admin/services/service/ HTTP/1.1" 200 18569
+INFO 2025-07-23 03:51:33,891 basehttp 16688 30104 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:51:35,049 basehttp 16688 30104 "GET /admin/services/workerperformance/ HTTP/1.1" 200 17488
+INFO 2025-07-23 03:51:35,078 basehttp 16688 30104 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:51:37,962 basehttp 16688 30104 "GET /admin/authentication/customuser/ HTTP/1.1" 200 22771
+INFO 2025-07-23 03:51:37,990 basehttp 16688 30104 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 03:52:40,406 autoreload 16688 21640 C:\Users\andre\Documents\Github_Projects\Metrilabs-metribooks\backend\services\serializers.py changed, reloading.
+INFO 2025-07-23 03:52:40,963 autoreload 32116 6052 Watching for file changes with StatReloader
+WARNING 2025-07-23 03:52:44,271 log 30724 29284 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:52:46,011 log 30724 29284 Unauthorized: /api/services/services/
+WARNING 2025-07-23 03:52:46,012 log 30724 29284 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 03:52:46,013 log 30724 29284 Unauthorized: /api/services/records/
+WARNING 2025-07-23 03:52:46,014 log 30724 29284 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 03:52:46,873 log 30724 29284 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:52:46,876 log 30724 29284 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 03:52:46,878 log 30724 29284 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:52:46,880 log 30724 29284 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 03:53:44,952 log 21116 3268 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:53:46,725 log 21116 3268 Unauthorized: /api/services/services/
+WARNING 2025-07-23 03:53:46,726 log 21116 3268 Unauthorized: /api/services/workers/
+WARNING 2025-07-23 03:53:46,727 log 21116 3268 Unauthorized: /api/services/records/
+WARNING 2025-07-23 03:53:46,728 log 21116 3268 Unauthorized: /api/services/dashboard/
+WARNING 2025-07-23 03:53:47,610 log 21116 3268 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:53:47,612 log 21116 3268 Not Found: /api/services/workers/3/
+WARNING 2025-07-23 03:53:47,614 log 21116 3268 Not Found: /api/services/services/1/
+WARNING 2025-07-23 03:53:47,616 log 21116 3268 Not Found: /api/services/workers/3/
+INFO 2025-07-23 04:04:28,272 basehttp 32116 31400 "POST /admin/authentication/customuser/ HTTP/1.1" 200 15903
+INFO 2025-07-23 04:04:28,321 basehttp 32116 31400 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:04:45,292 basehttp 32116 31400 "GET /admin/authentication/customuser/ HTTP/1.1" 200 23400
+INFO 2025-07-23 04:08:46,044 basehttp 32116 31400 "GET /admin/services/servicecategory/ HTTP/1.1" 200 25721
+INFO 2025-07-23 04:08:46,080 basehttp 32116 31400 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:08:55,334 basehttp 32116 31400 "GET /admin/services/servicerecord/ HTTP/1.1" 200 23773
+INFO 2025-07-23 04:08:55,372 basehttp 32116 31400 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:08:59,155 basehttp 32116 31400 "GET /admin/services/servicerecord/2/change/ HTTP/1.1" 200 37129
+INFO 2025-07-23 04:08:59,183 basehttp 32116 30104 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:08:59,183 basehttp 32116 17612 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:08:59,186 basehttp 32116 31400 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:08:59,241 basehttp 32116 31400 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2025-07-23 04:08:59,241 basehttp 32116 17612 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2025-07-23 04:09:09,760 basehttp 32116 17612 "GET /admin/services/service/ HTTP/1.1" 200 25893
+INFO 2025-07-23 04:09:09,792 basehttp 32116 17612 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:09:26,493 basehttp 32116 17612 "GET /admin/services/service/18/change/ HTTP/1.1" 200 28613
+INFO 2025-07-23 04:09:26,526 basehttp 32116 17612 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:09:32,447 basehttp 32116 17612 "GET /admin/services/workerperformance/ HTTP/1.1" 200 21140
+INFO 2025-07-23 04:09:32,476 basehttp 32116 17612 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:09:40,834 basehttp 32116 17612 "GET /admin/services/workerperformance/2/change/ HTTP/1.1" 200 26848
+INFO 2025-07-23 04:09:40,863 basehttp 32116 17612 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:09:47,947 basehttp 32116 17612 "GET /admin/services/worker/ HTTP/1.1" 200 23881
+INFO 2025-07-23 04:09:47,980 basehttp 32116 17612 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:09:58,161 basehttp 32116 17612 "GET /admin/services/worker/8/change/ HTTP/1.1" 200 34187
+INFO 2025-07-23 04:09:58,195 basehttp 32116 17612 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:09:58,235 basehttp 32116 31400 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-07-23 04:10:14,384 basehttp 32116 31400 "GET /admin/inventory/stockmovement/ HTTP/1.1" 200 22628
+INFO 2025-07-23 04:10:16,610 basehttp 32116 31400 "GET /admin/services/worker/ HTTP/1.1" 200 29558
+INFO 2025-07-23 04:10:16,640 basehttp 32116 31400 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:10:23,851 basehttp 32116 31400 "GET /admin/services/worker/?is_owner__exact=1 HTTP/1.1" 200 26464
+INFO 2025-07-23 04:10:23,882 basehttp 32116 31400 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:10:30,619 basehttp 32116 31400 "GET /admin/services/worker/19/change/?_changelist_filters=is_owner__exact%3D1 HTTP/1.1" 200 115305
+INFO 2025-07-23 04:10:30,654 basehttp 32116 31400 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:10:39,091 basehttp 32116 31400 "GET /admin/services/workerperformance/ HTTP/1.1" 200 26370
+INFO 2025-07-23 04:10:39,122 basehttp 32116 31400 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:10:54,578 basehttp 32116 31400 "GET /admin/services/service/ HTTP/1.1" 200 32953
+INFO 2025-07-23 04:10:54,609 basehttp 32116 31400 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:11:01,860 basehttp 32116 17316 "GET /admin/services/service/32/change/ HTTP/1.1" 200 28763
+INFO 2025-07-23 04:11:01,899 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:11:13,716 basehttp 32116 17316 "GET /admin/services/service/ HTTP/1.1" 200 32953
+INFO 2025-07-23 04:11:19,279 basehttp 32116 17316 "GET /admin/services/workerperformance/ HTTP/1.1" 200 26370
+INFO 2025-07-23 04:11:19,312 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:11:43,585 basehttp 32116 17316 "GET /admin/services/workerperformance/6/change/ HTTP/1.1" 200 27413
+INFO 2025-07-23 04:11:43,610 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:12:05,560 basehttp 32116 17316 "GET /admin/services/workerperformance/ HTTP/1.1" 200 26370
+INFO 2025-07-23 04:12:09,604 basehttp 32116 17316 "GET /admin/services/service/ HTTP/1.1" 200 32953
+INFO 2025-07-23 04:12:10,478 basehttp 32116 17316 "GET /admin/services/workerperformance/ HTTP/1.1" 200 26370
+INFO 2025-07-23 04:12:45,283 basehttp 32116 17316 "GET /admin/services/worker/ HTTP/1.1" 200 29558
+INFO 2025-07-23 04:12:45,331 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:13:07,865 basehttp 32116 17316 "GET /admin/services/worker/?is_owner__exact=1 HTTP/1.1" 200 26464
+INFO 2025-07-23 04:13:07,906 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:13:10,928 basehttp 32116 17316 "GET /admin/services/worker/?is_owner__exact=0 HTTP/1.1" 200 27022
+INFO 2025-07-23 04:13:10,961 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:13:11,937 basehttp 32116 17316 "GET /admin/services/worker/? HTTP/1.1" 200 29558
+INFO 2025-07-23 04:13:11,972 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 04:13:16,897 basehttp 32116 17316 "GET /admin/services/workerperformance/ HTTP/1.1" 200 26370
+INFO 2025-07-23 04:13:16,926 basehttp 32116 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
