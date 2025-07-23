@@ -2190,3 +2190,41 @@ WARNING 2025-07-23 15:27:17,239 signals 8176 15032 No income record found for de
 WARNING 2025-07-23 15:27:21,461 log 8176 15032 Unauthorized: /api/sales/sales/
 WARNING 2025-07-23 15:27:21,462 log 8176 15032 Unauthorized: /api/sales/sales/create/
 WARNING 2025-07-23 15:27:22,343 log 8176 15032 Not Found: /api/sales/sales/d08c596e-f563-4597-9a26-61013317c477/
+ERROR 2025-07-23 21:19:10,910 utils 3040 21620 Error generating profit/loss report: Cannot query "test@example.com": Must be "Service" instance.
+ERROR 2025-07-23 21:19:10,910 views 3040 21620 Error generating reports from template: Cannot query "test@example.com": Must be "Service" instance.
+ERROR 2025-07-23 21:19:10,912 log 3040 21620 Internal Server Error: /api/reports/templates/fc978e94-60e0-4d4b-ad25-aeb3526596c9/generate_from_template/
+ERROR 2025-07-23 21:22:29,300 utils 3608 5076 Error generating cash flow report: Cannot query "test@example.com": Must be "Service" instance.
+ERROR 2025-07-23 21:22:29,944 utils 3608 5076 Error generating profit/loss report: Cannot query "test@example.com": Must be "Service" instance.
+ERROR 2025-07-23 21:22:30,604 utils 3608 5076 Error generating tax summary report: Cannot query "test@example.com": Must be "Service" instance.
+ERROR 2025-07-23 21:25:14,440 utils 28420 19716 Error generating cash flow report: Cannot resolve keyword 'purchase_cost' into field. Choices are: category, category_id, created_at, current_value, disposal_date, id, location, name, notes, purchase_date, purchase_value, serial_number, status, updated_at, user, user_id, vendor
+ERROR 2025-07-23 21:25:58,293 utils 7740 4132 Error generating cash flow report: Cannot resolve keyword 'month_year' into field. Choices are: calculated_at, id, month, payment_date, payment_reference, payment_status, tax_due, tax_free_threshold, tax_rate, taxable_amount, total_revenue, updated_at, user, user_id, year
+WARNING 2025-07-23 21:27:08,896 log 24800 26616 Unauthorized: /api/reports/profit-loss/
+INFO 2025-07-23 21:29:06,310 autoreload 29012 13256 Watching for file changes with StatReloader
+INFO 2025-07-23 21:29:12,830 basehttp 29012 27796 "GET /admin/ HTTP/1.1" 200 27432
+INFO 2025-07-23 21:29:12,855 basehttp 29012 27796 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:12,856 basehttp 29012 16332 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:12,857 basehttp 29012 18204 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:12,915 basehttp 29012 18204 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:12,919 basehttp 29012 27796 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:12,919 basehttp 29012 16332 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:12,941 basehttp 29012 16332 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:12,955 basehttp 29012 27796 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:12,956 basehttp 29012 16332 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:12,957 basehttp 29012 18204 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+WARNING 2025-07-23 21:29:14,909 log 29012 18204 Not Found: /favicon.ico
+WARNING 2025-07-23 21:29:14,916 basehttp 29012 18204 "GET /favicon.ico HTTP/1.1" 404 3444
+INFO 2025-07-23 21:29:21,981 basehttp 29012 18204 "GET /admin/reports/ HTTP/1.1" 200 6939
+INFO 2025-07-23 21:29:23,677 basehttp 29012 18204 "GET /admin/reports/businessmetric/ HTTP/1.1" 200 26907
+INFO 2025-07-23 21:29:23,720 basehttp 29012 18204 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,724 basehttp 29012 16332 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,729 basehttp 29012 25532 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,733 basehttp 29012 20184 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,734 basehttp 29012 19700 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,745 basehttp 29012 27796 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-23 21:29:23,746 basehttp 29012 18204 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,760 basehttp 29012 16332 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,774 basehttp 29012 25532 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,788 basehttp 29012 20184 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,801 basehttp 29012 19700 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,853 basehttp 29012 20184 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-07-23 21:29:23,864 basehttp 29012 19700 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
