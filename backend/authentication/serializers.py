@@ -11,7 +11,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = CustomUser
-        fields = ('email', 'phone', 'password', 'password_confirm', 'first_name', 'last_name')
+        fields = ('email', 'phone', 'password', 'password_confirm')
 
     def validate(self, attrs):
         if not attrs.get('email') and not attrs.get('phone'):
@@ -114,6 +114,54 @@ class ResetPasswordSerializer(serializers.Serializer):
 class UserProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser
-        fields = ('id', 'email', 'phone', 'first_name', 'last_name', 'date_joined', 
+        fields = ('id', 'email', 'phone', 'date_joined', 
                  'email_verified', 'phone_verified')
         read_only_fields = ('id', 'date_joined', 'email_verified', 'phone_verified')
+
+
+class UpdateEmailSerializer(serializers.Serializer):
+    new_email = serializers.EmailField(required=True)
+    password = serializers.CharField(required=True)
+
+    def validate_new_email(self, value):
+        user = self.context['request'].user
+        
+        # Check if email is different from current
+        if user.email == value:
+            raise serializers.ValidationError("New email must be different from current email.")
+        
+        # Check if email already exists
+        if CustomUser.objects.filter(email=value).exclude(pk=user.pk).exists():
+            raise serializers.ValidationError("This email is already in use.")
+        
+        return value
+
+    def validate_password(self, value):
+        user = self.context['request'].user
+        if not user.check_password(value):
+            raise serializers.ValidationError("Password is incorrect.")
+        return value
+
+
+class UpdatePhoneSerializer(serializers.Serializer):
+    new_phone = serializers.CharField(required=True, max_length=20)
+    password = serializers.CharField(required=True)
+
+    def validate_new_phone(self, value):
+        user = self.context['request'].user
+        
+        # Check if phone is different from current
+        if user.phone == value:
+            raise serializers.ValidationError("New phone number must be different from current phone number.")
+        
+        # Check if phone already exists
+        if CustomUser.objects.filter(phone=value).exclude(pk=user.pk).exists():
+            raise serializers.ValidationError("This phone number is already in use.")
+        
+        return value
+
+    def validate_password(self, value):
+        user = self.context['request'].user
+        if not user.check_password(value):
+            raise serializers.ValidationError("Password is incorrect.")
+        return value

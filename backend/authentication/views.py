@@ -28,7 +28,9 @@ from .serializers import (
     LoginSerializer, 
     ChangePasswordSerializer,
     ResetPasswordSerializer,
-    UserProfileSerializer
+    UserProfileSerializer,
+    UpdateEmailSerializer,
+    UpdatePhoneSerializer
 )
 
 
@@ -394,3 +396,125 @@ class UserProfileView(generics.RetrieveUpdateAPIView):
 
     def get_object(self):
         return self.request.user
+
+
+class UpdateEmailView(APIView):
+    permission_classes = [permissions.IsAuthenticated]
+
+    def patch(self, request):
+        client_ip = self.get_client_ip(request)
+        user = request.user
+        
+        # Check rate limit
+        ratelimited = is_ratelimited(
+            request=request,
+            group='update_email',
+            key='user',
+            rate='3/m',
+            method=['PATCH'],
+            increment=True
+        )
+        
+        if ratelimited:
+            rate_limit_logger.warning(
+                f"Email update rate limit exceeded for user: {user.email or user.phone} from IP: {client_ip}"
+            )
+            return Response({
+                'error': 'Rate limit exceeded. Please try again later.',
+                'detail': 'Maximum 3 email update attempts per minute allowed.',
+                'retry_after': '60 seconds'
+            }, status=429)
+        
+        serializer = UpdateEmailSerializer(data=request.data, context={'request': request})
+        if serializer.is_valid():
+            old_email = user.email
+            new_email = serializer.validated_data['new_email']
+            
+            user.email = new_email
+            user.email_verified = False  # Reset verification status
+            user.save()
+            
+            # Log successful email update
+            security_logger.info(
+                f"Email updated for user from {old_email} to {new_email} from IP: {client_ip}"
+            )
+            
+            return Response({
+                'message': 'Email updated successfully',
+                'user': UserProfileSerializer(user).data
+            }, status=status.HTTP_200_OK)
+        
+        # Log failed email update attempt
+        security_logger.warning(
+            f"Failed email update attempt for user: {user.email or user.phone} from IP: {client_ip}, errors: {serializer.errors}"
+        )
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def get_client_ip(self, request):
+        x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+        if x_forwarded_for:
+            ip = x_forwarded_for.split(',')[0]
+        else:
+            ip = request.META.get('REMOTE_ADDR')
+        return ip
+
+
+class UpdatePhoneView(APIView):
+    permission_classes = [permissions.IsAuthenticated]
+
+    def patch(self, request):
+        client_ip = self.get_client_ip(request)
+        user = request.user
+        
+        # Check rate limit
+        ratelimited = is_ratelimited(
+            request=request,
+            group='update_phone',
+            key='user',
+            rate='3/m',
+            method=['PATCH'],
+            increment=True
+        )
+        
+        if ratelimited:
+            rate_limit_logger.warning(
+                f"Phone update rate limit exceeded for user: {user.email or user.phone} from IP: {client_ip}"
+            )
+            return Response({
+                'error': 'Rate limit exceeded. Please try again later.',
+                'detail': 'Maximum 3 phone update attempts per minute allowed.',
+                'retry_after': '60 seconds'
+            }, status=429)
+        
+        serializer = UpdatePhoneSerializer(data=request.data, context={'request': request})
+        if serializer.is_valid():
+            old_phone = user.phone
+            new_phone = serializer.validated_data['new_phone']
+            
+            user.phone = new_phone
+            user.phone_verified = False  # Reset verification status
+            user.save()
+            
+            # Log successful phone update
+            security_logger.info(
+                f"Phone updated for user from {old_phone} to {new_phone} from IP: {client_ip}"
+            )
+            
+            return Response({
+                'message': 'Phone number updated successfully',
+                'user': UserProfileSerializer(user).data
+            }, status=status.HTTP_200_OK)
+        
+        # Log failed phone update attempt
+        security_logger.warning(
+            f"Failed phone update attempt for user: {user.email or user.phone} from IP: {client_ip}, errors: {serializer.errors}"
+        )
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def get_client_ip(self, request):
+        x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+        if x_forwarded_for:
+            ip = x_forwarded_for.split(',')[0]
+        else:
+            ip = request.META.get('REMOTE_ADDR')
+        return ip

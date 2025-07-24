@@ -130,8 +130,20 @@ class UserProfileCreateUpdateSerializer(serializers.ModelSerializer):
     
     def validate_business_subcategory(self, value):
         """Validate that subcategory matches the business type"""
-        if value and hasattr(self, 'instance') and self.instance:
-            valid_choices = [choice[0] for choice in self.instance.get_subcategory_choices()]
+        if not value:
+            return value
+            
+        # Get the business_type from the submitted data or the instance
+        business_type = self.initial_data.get('business_type')
+        if not business_type and hasattr(self, 'instance') and self.instance:
+            business_type = self.instance.business_type
+            
+        if business_type:
+            # Get valid choices for the business type
+            profile_model = UserProfile()
+            profile_model.business_type = business_type
+            valid_choices = [choice[0] for choice in profile_model.get_subcategory_choices()]
+            
             if value not in valid_choices:
                 raise serializers.ValidationError(
                     f"Invalid subcategory for the selected business type."
